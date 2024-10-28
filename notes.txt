@@ -1,0 +1,44 @@
+
+Game Mechanic
+Alternate Ammo Types
+
+
+MAKE COMPONENTS FOR EACH AMMO TYPE, DONT NEED SEPERATE GUNS (ihope)
+
+Showcase a different weapon for each ammo type with 100% use of alternate ammo type
+real game have random chance
+5-10% chance?
+
+
+
+
+Thunder Wall:
+Throws enemies within a range of bullet impact in opposite direction of bullet
+ragdoll if possible
+
+
+
+Poison Mist:
+creates poison mist that does tick damage
+creates lasting effect 
+
+
+
+Magma Splash:
+creates a lava puddle on ground that does tick damage
+no lasting effect
+
+
+
+Turned:
+makes enemy fight for you, attacking enemies
+lasts 15 seconds, shorter in showcase?
+
+
+
+Slowed:
+Slows enemies in a radius
+slowed for 5 seconds
+half speed?
+
+
