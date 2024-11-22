@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "m:\\cmp 302\\submissionnnn\\gamemechanic\\gamemechanic\\gamemech 5.4 5.4 5.4 5.4 5.4\\intermediate\\build\\win64\\unrealeditor\\inc\\gamemech\\uht\\gamemech.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "m:\\cmp 302\\submissionnnn\\gamemechanic\\gamemechanic\\gamemech 5.4 5.4 5.4 5.4 5.4\\intermediate\\build\\win64\\x64\\gamemecheditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderoldest.h.pch",
+        "Includes": [
+            "m:\\cmp 302\\submissionnnn\\gamemechanic\\gamemechanic\\gamemech 5.4 5.4 5.4 5.4 5.4\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\gamemech\\definitions.gamemech.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
