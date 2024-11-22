@@ -18,6 +18,23 @@ void AFireAmmoActor::BeginPlay()
 	
 }
 
+void AFireAmmoActor::AfterHit(const AActor* otherActor, const UPrimitiveComponent* otherComp, FTransform& MakeTransform)
+{
+
+	FRotator rotation = FRotator(0.0, 0.0, 0.0);
+	FVector scale = FVector(1.0, 1.0, 1.0);
+	FVector location;
+	
+	if (otherComp->ComponentHasTag("Enemy")) {
+		location = otherActor->GetActorLocation();
+		location = location * FVector(1.0, 1.0, 0.0);
+		FTransform MakeTransform(rotation, location, scale);
+	}
+	
+
+}
+
+
 // Called every frame
 void AFireAmmoActor::Tick(float DeltaTime)
 {

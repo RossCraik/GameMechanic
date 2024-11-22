@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "m:\\cmp 302\\submissionnnn\\gamemechanic\\gamemech 5.4 5.4 5.4 5.4 5.4\\intermediate\\build\\win64\\unrealeditor\\inc\\gamemech\\uht\\turnedammoactor.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "m:\\cmp 302\\submissionnnn\\gamemechanic\\gamemech 5.4 5.4 5.4 5.4 5.4\\intermediate\\build\\win64\\x64\\gamemecheditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderoldest.h.pch",
+        "Includes": [
+            "m:\\cmp 302\\submissionnnn\\gamemechanic\\gamemech 5.4 5.4 5.4 5.4 5.4\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\gamemech\\definitions.gamemech.h",
+            "m:\\cmp 302\\submissionnnn\\gamemechanic\\gamemech 5.4 5.4 5.4 5.4 5.4\\source\\gamemech\\turnedammoactor.h",
+            "m:\\cmp 302\\submissionnnn\\gamemechanic\\gamemech 5.4 5.4 5.4 5.4 5.4\\intermediate\\build\\win64\\unrealeditor\\inc\\gamemech\\uht\\turnedammoactor.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

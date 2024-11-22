@@ -6,7 +6,7 @@
 #include "GameFramework/Actor.h"
 #include "FireAmmoActor.generated.h"
 
-UCLASS()
+UCLASS(ClassGroup = (Custom), meta = (BlueprintSpawnableComponent), Blueprintable)
 class GAMEMECH_API AFireAmmoActor : public AActor
 {
 	GENERATED_BODY()
@@ -18,6 +18,8 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+
+	UFUNCTION(BlueprintCallable) void AfterHit(const AActor* otherActor, const UPrimitiveComponent* otherComp, FTransform& MakeTransform);
 
 public:	
 	// Called every frame

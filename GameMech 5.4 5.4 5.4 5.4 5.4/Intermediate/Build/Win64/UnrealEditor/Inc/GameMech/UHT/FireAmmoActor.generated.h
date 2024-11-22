@@ -9,10 +9,16 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AActor;
+class UPrimitiveComponent;
 #ifdef GAMEMECH_FireAmmoActor_generated_h
 #error "FireAmmoActor.generated.h already included, missing '#pragma once' in FireAmmoActor.h"
 #endif
 #define GAMEMECH_FireAmmoActor_generated_h
+
+#define FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_FireAmmoActor_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execAfterHit);
+
 
 #define FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_FireAmmoActor_h_12_INCLASS_NO_PURE_DECLS \
 private: \
@@ -39,6 +45,7 @@ public: \
 #define FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_FireAmmoActor_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
+	FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_FireAmmoActor_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
 	FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_FireAmmoActor_h_12_INCLASS_NO_PURE_DECLS \
 	FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_FireAmmoActor_h_12_ENHANCED_CONSTRUCTORS \
 private: \
