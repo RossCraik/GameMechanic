@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "M:\\CMP 302\\SUBMISSIONNNN\\GameMechanic\\GameMech 5.4 5.4 5.4 5.4 5.4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D49BB71C-70E9-3019-8043-0D8D3DC0B799}|Intermediate\\ProjectFiles\\GameMech.vcxproj|M:\\CMP 302\\SUBMISSIONNNN\\GameMechanic\\GameMech 5.4 5.4 5.4 5.4 5.4\\Source\\GameMech\\TurnedAmmoActor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D49BB71C-70E9-3019-8043-0D8D3DC0B799}|Intermediate\\ProjectFiles\\GameMech.vcxproj|solutionrelative:Source\\GameMech\\TurnedAmmoActor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{D49BB71C-70E9-3019-8043-0D8D3DC0B799}|Intermediate\\ProjectFiles\\GameMech.vcxproj|M:\\CMP 302\\SUBMISSIONNNN\\GameMechanic\\GameMech 5.4 5.4 5.4 5.4 5.4\\Source\\GameMech\\ThunderAmmoActor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D49BB71C-70E9-3019-8043-0D8D3DC0B799}|Intermediate\\ProjectFiles\\GameMech.vcxproj|solutionrelative:Source\\GameMech\\ThunderAmmoActor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D49BB71C-70E9-3019-8043-0D8D3DC0B799}|Intermediate\\ProjectFiles\\GameMech.vcxproj|M:\\CMP 302\\SUBMISSIONNNN\\GameMechanic\\GameMech 5.4 5.4 5.4 5.4 5.4\\Source\\GameMech\\TurnedAmmoActor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D49BB71C-70E9-3019-8043-0D8D3DC0B799}|Intermediate\\ProjectFiles\\GameMech.vcxproj|solutionrelative:Source\\GameMech\\TurnedAmmoActor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{D49BB71C-70E9-3019-8043-0D8D3DC0B799}|Intermediate\\ProjectFiles\\GameMech.vcxproj|M:\\CMP 302\\SUBMISSIONNNN\\GameMechanic\\GameMech 5.4 5.4 5.4 5.4 5.4\\Source\\GameMech\\ThunderAmmoActor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D49BB71C-70E9-3019-8043-0D8D3DC0B799}|Intermediate\\ProjectFiles\\GameMech.vcxproj|solutionrelative:Source\\GameMech\\ThunderAmmoActor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D49BB71C-70E9-3019-8043-0D8D3DC0B799}|Intermediate\\ProjectFiles\\GameMech.vcxproj|M:\\CMP 302\\SUBMISSIONNNN\\GameMechanic\\GameMech 5.4 5.4 5.4 5.4 5.4\\Source\\GameMech\\WeaponCompCPP.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D49BB71C-70E9-3019-8043-0D8D3DC0B799}|Intermediate\\ProjectFiles\\GameMech.vcxproj|solutionrelative:Source\\GameMech\\WeaponCompCPP.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D49BB71C-70E9-3019-8043-0D8D3DC0B799}|Intermediate\\ProjectFiles\\GameMech.vcxproj|M:\\CMP 302\\SUBMISSIONNNN\\GameMechanic\\GameMech 5.4 5.4 5.4 5.4 5.4\\Source\\GameMech\\FireAmmoActor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -17,6 +21,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{D49BB71C-70E9-3019-8043-0D8D3DC0B799}|Intermediate\\ProjectFiles\\GameMech.vcxproj|M:\\CMP 302\\SUBMISSIONNNN\\GameMechanic\\GameMech 5.4 5.4 5.4 5.4 5.4\\Source\\GameMech\\FireAmmoActor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D49BB71C-70E9-3019-8043-0D8D3DC0B799}|Intermediate\\ProjectFiles\\GameMech.vcxproj|solutionrelative:Source\\GameMech\\FireAmmoActor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D49BB71C-70E9-3019-8043-0D8D3DC0B799}|Intermediate\\ProjectFiles\\GameMech.vcxproj|M:\\CMP 302\\SUBMISSIONNNN\\GameMechanic\\GameMech 5.4 5.4 5.4 5.4 5.4\\Source\\GameMech\\WeaponCompCPP.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D49BB71C-70E9-3019-8043-0D8D3DC0B799}|Intermediate\\ProjectFiles\\GameMech.vcxproj|solutionrelative:Source\\GameMech\\WeaponCompCPP.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D49BB71C-70E9-3019-8043-0D8D3DC0B799}|Intermediate\\ProjectFiles\\GameMech.vcxproj|M:\\CMP 302\\SUBMISSIONNNN\\GameMechanic\\GameMech 5.4 5.4 5.4 5.4 5.4\\Source\\GameMech\\TurnedAmmoActor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D49BB71C-70E9-3019-8043-0D8D3DC0B799}|Intermediate\\ProjectFiles\\GameMech.vcxproj|solutionrelative:Source\\GameMech\\TurnedAmmoActor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D49BB71C-70E9-3019-8043-0D8D3DC0B799}|Intermediate\\ProjectFiles\\GameMech.vcxproj|M:\\CMP 302\\SUBMISSIONNNN\\GameMechanic\\GameMech 5.4 5.4 5.4 5.4 5.4\\Source\\GameMech\\TurnedAmmoActor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D49BB71C-70E9-3019-8043-0D8D3DC0B799}|Intermediate\\ProjectFiles\\GameMech.vcxproj|solutionrelative:Source\\GameMech\\TurnedAmmoActor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,35 +42,86 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "WeaponCompCPP.h",
+              "DocumentMoniker": "M:\\CMP 302\\SUBMISSIONNNN\\GameMechanic\\GameMech 5.4 5.4 5.4 5.4 5.4\\Source\\GameMech\\WeaponCompCPP.h",
+              "RelativeDocumentMoniker": "Source\\GameMech\\WeaponCompCPP.h",
+              "ToolTip": "M:\\CMP 302\\SUBMISSIONNNN\\GameMechanic\\GameMech 5.4 5.4 5.4 5.4 5.4\\Source\\GameMech\\WeaponCompCPP.h",
+              "RelativeToolTip": "Source\\GameMech\\WeaponCompCPP.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-10T19:55:18.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WeaponCompCPP.cpp",
+              "DocumentMoniker": "M:\\CMP 302\\SUBMISSIONNNN\\GameMechanic\\GameMech 5.4 5.4 5.4 5.4 5.4\\Source\\GameMech\\WeaponCompCPP.cpp",
+              "RelativeDocumentMoniker": "Source\\GameMech\\WeaponCompCPP.cpp",
+              "ToolTip": "M:\\CMP 302\\SUBMISSIONNNN\\GameMechanic\\GameMech 5.4 5.4 5.4 5.4 5.4\\Source\\GameMech\\WeaponCompCPP.cpp",
+              "RelativeToolTip": "Source\\GameMech\\WeaponCompCPP.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-10T19:55:18.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "FireAmmoActor.h",
               "DocumentMoniker": "M:\\CMP 302\\SUBMISSIONNNN\\GameMechanic\\GameMech 5.4 5.4 5.4 5.4 5.4\\Source\\GameMech\\FireAmmoActor.h",
               "RelativeDocumentMoniker": "Source\\GameMech\\FireAmmoActor.h",
               "ToolTip": "M:\\CMP 302\\SUBMISSIONNNN\\GameMechanic\\GameMech 5.4 5.4 5.4 5.4 5.4\\Source\\GameMech\\FireAmmoActor.h",
               "RelativeToolTip": "Source\\GameMech\\FireAmmoActor.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAACHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-22T11:07:23.555Z"
+              "WhenOpened": "2024-12-10T18:45:08.538Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "FireAmmoActor.cpp",
               "DocumentMoniker": "M:\\CMP 302\\SUBMISSIONNNN\\GameMechanic\\GameMech 5.4 5.4 5.4 5.4 5.4\\Source\\GameMech\\FireAmmoActor.cpp",
               "RelativeDocumentMoniker": "Source\\GameMech\\FireAmmoActor.cpp",
               "ToolTip": "M:\\CMP 302\\SUBMISSIONNNN\\GameMechanic\\GameMech 5.4 5.4 5.4 5.4 5.4\\Source\\GameMech\\FireAmmoActor.cpp",
               "RelativeToolTip": "Source\\GameMech\\FireAmmoActor.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-22T11:07:24.387Z"
+              "WhenOpened": "2024-12-10T18:45:09.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ThunderAmmoActor.h",
+              "DocumentMoniker": "M:\\CMP 302\\SUBMISSIONNNN\\GameMechanic\\GameMech 5.4 5.4 5.4 5.4 5.4\\Source\\GameMech\\ThunderAmmoActor.h",
+              "RelativeDocumentMoniker": "Source\\GameMech\\ThunderAmmoActor.h",
+              "ToolTip": "M:\\CMP 302\\SUBMISSIONNNN\\GameMechanic\\GameMech 5.4 5.4 5.4 5.4 5.4\\Source\\GameMech\\ThunderAmmoActor.h",
+              "RelativeToolTip": "Source\\GameMech\\ThunderAmmoActor.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-10T18:44:48.346Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ThunderAmmoActor.cpp",
+              "DocumentMoniker": "M:\\CMP 302\\SUBMISSIONNNN\\GameMechanic\\GameMech 5.4 5.4 5.4 5.4 5.4\\Source\\GameMech\\ThunderAmmoActor.cpp",
+              "RelativeDocumentMoniker": "Source\\GameMech\\ThunderAmmoActor.cpp",
+              "ToolTip": "M:\\CMP 302\\SUBMISSIONNNN\\GameMechanic\\GameMech 5.4 5.4 5.4 5.4 5.4\\Source\\GameMech\\ThunderAmmoActor.cpp",
+              "RelativeToolTip": "Source\\GameMech\\ThunderAmmoActor.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-10T18:44:47.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "TurnedAmmoActor.h",
               "DocumentMoniker": "M:\\CMP 302\\SUBMISSIONNNN\\GameMechanic\\GameMech 5.4 5.4 5.4 5.4 5.4\\Source\\GameMech\\TurnedAmmoActor.h",
               "RelativeDocumentMoniker": "Source\\GameMech\\TurnedAmmoActor.h",
@@ -62,12 +129,11 @@
               "RelativeToolTip": "Source\\GameMech\\TurnedAmmoActor.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-22T15:52:30.292Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T18:45:06.181Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "TurnedAmmoActor.cpp",
               "DocumentMoniker": "M:\\CMP 302\\SUBMISSIONNNN\\GameMechanic\\GameMech 5.4 5.4 5.4 5.4 5.4\\Source\\GameMech\\TurnedAmmoActor.cpp",
               "RelativeDocumentMoniker": "Source\\GameMech\\TurnedAmmoActor.cpp",
@@ -75,8 +141,7 @@
               "RelativeToolTip": "Source\\GameMech\\TurnedAmmoActor.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-22T15:52:27.285Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T18:45:07.477Z"
             }
           ]
         }

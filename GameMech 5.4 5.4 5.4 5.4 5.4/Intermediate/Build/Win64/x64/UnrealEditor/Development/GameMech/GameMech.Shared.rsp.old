@@ -281,8 +281,8 @@
 /I "Editor\SceneDepthPickerMode\Public"
 /I "..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationEditMode\UHT"
 /I "Editor\AnimationEditMode\Public"
-/I "M:\CMP 302\SUBMISSIONNNN\GameMechanic\GameMechanic\GameMech 5.4 5.4 5.4 5.4 5.4\Intermediate\Build\Win64\UnrealEditor\Inc\GameMech\UHT"
-/I "M:\CMP 302\SUBMISSIONNNN\GameMechanic\GameMechanic\GameMech 5.4 5.4 5.4 5.4 5.4\Source"
+/I "M:\CMP 302\SUBMISSIONNNN\GameMechanic\GameMech 5.4 5.4 5.4 5.4 5.4\Intermediate\Build\Win64\UnrealEditor\Inc\GameMech\UHT"
+/I "M:\CMP 302\SUBMISSIONNNN\GameMechanic\GameMech 5.4 5.4 5.4 5.4 5.4\Source"
 /external:W0
 /external:I "ThirdParty\LibTiff\Source\Win64"
 /external:I "ThirdParty\LibTiff\Source"

@@ -48,10 +48,22 @@
     <ClInclude Include="..\..\Source\GameMech\GameMech.h">
       <Filter>Source\GameMech</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\GameMech\ThunderAmmoActor.cpp">
+      <Filter>Source\GameMech</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GameMech\ThunderAmmoActor.h">
+      <Filter>Source\GameMech</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\GameMech\TurnedAmmoActor.cpp">
       <Filter>Source\GameMech</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\GameMech\TurnedAmmoActor.h">
+      <Filter>Source\GameMech</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GameMech\WeaponCompCPP.cpp">
+      <Filter>Source\GameMech</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GameMech\WeaponCompCPP.h">
       <Filter>Source\GameMech</Filter>
     </ClInclude>
   </ItemGroup>
