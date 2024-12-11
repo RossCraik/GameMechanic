@@ -1,0 +1,21 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-GameMech-9296.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"M:\CMP 302\SUBMISSIONNNN\GameMechanic\GameMech 5.4 5.4 5.4 5.4 5.4\Intermediate\Build\Win64\x64\GameMechEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderOldest.h.obj"
+"M:\CMP 302\SUBMISSIONNNN\GameMechanic\GameMech 5.4 5.4 5.4 5.4 5.4\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameMech\FireAmmoActor.gen.cpp.obj"
+"M:\CMP 302\SUBMISSIONNNN\GameMechanic\GameMech 5.4 5.4 5.4 5.4 5.4\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameMech\GameMech.init.gen.cpp.obj"
+"M:\CMP 302\SUBMISSIONNNN\GameMechanic\GameMech 5.4 5.4 5.4 5.4 5.4\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameMech\ThunderAmmoActor.gen.cpp.obj"
+"M:\CMP 302\SUBMISSIONNNN\GameMechanic\GameMech 5.4 5.4 5.4 5.4 5.4\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameMech\TurnedAmmoActor.gen.cpp.obj"
+"M:\CMP 302\SUBMISSIONNNN\GameMechanic\GameMech 5.4 5.4 5.4 5.4 5.4\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameMech\WeaponCompCPP.gen.cpp.obj"
+"M:\CMP 302\SUBMISSIONNNN\GameMechanic\GameMech 5.4 5.4 5.4 5.4 5.4\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameMech\FireAmmoActor.cpp.obj"
+"M:\CMP 302\SUBMISSIONNNN\GameMechanic\GameMech 5.4 5.4 5.4 5.4 5.4\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameMech\GameMech.cpp.obj"
+"M:\CMP 302\SUBMISSIONNNN\GameMechanic\GameMech 5.4 5.4 5.4 5.4 5.4\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameMech\ThunderAmmoActor.cpp.obj"
+"M:\CMP 302\SUBMISSIONNNN\GameMechanic\GameMech 5.4 5.4 5.4 5.4 5.4\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameMech\TurnedAmmoActor.cpp.obj"
+"M:\CMP 302\SUBMISSIONNNN\GameMechanic\GameMech 5.4 5.4 5.4 5.4 5.4\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameMech\WeaponCompCPP.cpp.obj"
+"M:\CMP 302\SUBMISSIONNNN\GameMechanic\GameMech 5.4 5.4 5.4 5.4 5.4\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameMech\Default.rc2.res"
+/OUT:"M:\CMP 302\SUBMISSIONNNN\GameMechanic\GameMech 5.4 5.4 5.4 5.4 5.4\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameMech\UnrealEditor-GameMech-9296.lib"

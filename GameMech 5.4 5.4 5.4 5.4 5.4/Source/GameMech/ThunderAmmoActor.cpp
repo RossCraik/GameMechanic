@@ -20,12 +20,12 @@ void AThunderAmmoActor::BeginPlay()
 
 void AThunderAmmoActor::AfterHit(const AActor* otherActor, const UPrimitiveComponent* otherComp)
 {
-	const AActor* myactor;
+	//const AActor* myactor;
 
 	if (otherComp->ComponentHasTag("Enemy")) {
 		//cast to
 
-		myactor = Cast<AActor>(otherActor);
+		
 
 		//add Impulse
 

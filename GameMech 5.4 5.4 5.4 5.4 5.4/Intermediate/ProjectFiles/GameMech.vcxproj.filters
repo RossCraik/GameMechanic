@@ -48,6 +48,12 @@
     <ClInclude Include="..\..\Source\GameMech\GameMech.h">
       <Filter>Source\GameMech</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\GameMech\TestDummyActor.cpp">
+      <Filter>Source\GameMech</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GameMech\TestDummyActor.h">
+      <Filter>Source\GameMech</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\GameMech\ThunderAmmoActor.cpp">
       <Filter>Source\GameMech</Filter>
     </ClCompile>

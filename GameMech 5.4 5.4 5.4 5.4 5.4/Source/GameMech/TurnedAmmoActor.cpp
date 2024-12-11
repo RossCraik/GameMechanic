@@ -22,8 +22,28 @@ void ATurnedAmmoActor::AfterHit(const AActor* otherActor, const UPrimitiveCompon
 {
 	if (otherComp->ComponentHasTag("Enemy")) {
 
-		//otherComp->ComponentTags.remove(FName("Enemy"));
-		//otherComp->ComponentTags.Add(FName("NotEnemy"));
+
+		otherActor->CanModify();
+
+		otherActor->Tags;
+
+		TArray<FName> NewTags;
+
+		// Iterate over the current tags and add tags to NewTags, excluding the one we want to remove
+		for (const FName& Tag : otherActor->Tags)
+		{
+			if (Tag != "Enemy")
+			{
+				NewTags.Add(Tag);
+			}
+		}
+
+		// Replace the Actor's tags with the filtered list (excluding the tag to remove)
+		//otherActor->Tags = NewTags;
+
+
+
+
 		Destroy();
 		
 	}

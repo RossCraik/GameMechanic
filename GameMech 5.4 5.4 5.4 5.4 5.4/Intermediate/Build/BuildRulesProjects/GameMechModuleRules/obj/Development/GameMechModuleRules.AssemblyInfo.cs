@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GameMechModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a054603eb0431a0c17db5536e7a0be867c161646")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f6692ea9c027d4626c860cafedae812aa3e8cb5")]
 [assembly: System.Reflection.AssemblyProductAttribute("GameMechModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GameMechModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
