@@ -3,7 +3,7 @@
 
 #include "WeaponCompCPP.h"
 
-void UWeaponCompCPP::AfterShoot(const FTransform MakeTransform, const FVector Location)
+void UWeaponCompCPP::AfterShoot(const FTransform& MakeTransform, const FVector& Location)
 {
 	int RandomInt = UKismetMathLibrary::RandomIntegerInRange(0, 10);
 
@@ -27,10 +27,13 @@ void UWeaponCompCPP::AfterShoot(const FTransform MakeTransform, const FVector Lo
 	}
 }
 
-void UWeaponCompCPP::AfterSpawn()
+void UWeaponCompCPP::AfterSpawn(const FVector& Location)
 {
-	//
-	// UGameplayStatics::PlaySoundAtLocation();
+	
+	
+	//UGameplayStatics::PlaySoundAtLocation(GetWorld(), "Content/FPWeapon/Audio/FirstPersonTemplateWeaponFire02.uasset", Location);
+
+
 
 }
 

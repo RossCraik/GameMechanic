@@ -104,14 +104,14 @@ struct Z_Construct_UFunction_UWeaponCompCPP_AfterShoot_Statics
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
-const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UWeaponCompCPP_AfterShoot_Statics::NewProp_MakeTransform = { "MakeTransform", nullptr, (EPropertyFlags)0x0010000000000082, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(WeaponCompCPP_eventAfterShoot_Parms, MakeTransform), Z_Construct_UScriptStruct_FTransform, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MakeTransform_MetaData), NewProp_MakeTransform_MetaData) };
-const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UWeaponCompCPP_AfterShoot_Statics::NewProp_Location = { "Location", nullptr, (EPropertyFlags)0x0010000000000082, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(WeaponCompCPP_eventAfterShoot_Parms, Location), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Location_MetaData), NewProp_Location_MetaData) };
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UWeaponCompCPP_AfterShoot_Statics::NewProp_MakeTransform = { "MakeTransform", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(WeaponCompCPP_eventAfterShoot_Parms, MakeTransform), Z_Construct_UScriptStruct_FTransform, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MakeTransform_MetaData), NewProp_MakeTransform_MetaData) };
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UWeaponCompCPP_AfterShoot_Statics::NewProp_Location = { "Location", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(WeaponCompCPP_eventAfterShoot_Parms, Location), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Location_MetaData), NewProp_Location_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UWeaponCompCPP_AfterShoot_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UWeaponCompCPP_AfterShoot_Statics::NewProp_MakeTransform,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UWeaponCompCPP_AfterShoot_Statics::NewProp_Location,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UWeaponCompCPP_AfterShoot_Statics::PropPointers) < 2048);
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UWeaponCompCPP_AfterShoot_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UWeaponCompCPP, nullptr, "AfterShoot", nullptr, nullptr, Z_Construct_UFunction_UWeaponCompCPP_AfterShoot_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UWeaponCompCPP_AfterShoot_Statics::PropPointers), sizeof(Z_Construct_UFunction_UWeaponCompCPP_AfterShoot_Statics::WeaponCompCPP_eventAfterShoot_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04880401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UWeaponCompCPP_AfterShoot_Statics::Function_MetaDataParams), Z_Construct_UFunction_UWeaponCompCPP_AfterShoot_Statics::Function_MetaDataParams) };
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UWeaponCompCPP_AfterShoot_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UWeaponCompCPP, nullptr, "AfterShoot", nullptr, nullptr, Z_Construct_UFunction_UWeaponCompCPP_AfterShoot_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UWeaponCompCPP_AfterShoot_Statics::PropPointers), sizeof(Z_Construct_UFunction_UWeaponCompCPP_AfterShoot_Statics::WeaponCompCPP_eventAfterShoot_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04C80401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UWeaponCompCPP_AfterShoot_Statics::Function_MetaDataParams), Z_Construct_UFunction_UWeaponCompCPP_AfterShoot_Statics::Function_MetaDataParams) };
 static_assert(sizeof(Z_Construct_UFunction_UWeaponCompCPP_AfterShoot_Statics::WeaponCompCPP_eventAfterShoot_Parms) < MAX_uint16);
 UFunction* Z_Construct_UFunction_UWeaponCompCPP_AfterShoot()
 {
@@ -124,11 +124,11 @@ UFunction* Z_Construct_UFunction_UWeaponCompCPP_AfterShoot()
 }
 DEFINE_FUNCTION(UWeaponCompCPP::execAfterShoot)
 {
-	P_GET_STRUCT(FTransform,Z_Param_MakeTransform);
-	P_GET_STRUCT(FVector,Z_Param_Location);
+	P_GET_STRUCT_REF(FTransform,Z_Param_Out_MakeTransform);
+	P_GET_STRUCT_REF(FVector,Z_Param_Out_Location);
 	P_FINISH;
 	P_NATIVE_BEGIN;
-	P_THIS->AfterShoot(Z_Param_MakeTransform,Z_Param_Location);
+	P_THIS->AfterShoot(Z_Param_Out_MakeTransform,Z_Param_Out_Location);
 	P_NATIVE_END;
 }
 // End Class UWeaponCompCPP Function AfterShoot
@@ -136,14 +136,29 @@ DEFINE_FUNCTION(UWeaponCompCPP::execAfterShoot)
 // Begin Class UWeaponCompCPP Function AfterSpawn
 struct Z_Construct_UFunction_UWeaponCompCPP_AfterSpawn_Statics
 {
+	struct WeaponCompCPP_eventAfterSpawn_Parms
+	{
+		FVector Location;
+	};
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "WeaponCompCPP.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Location_MetaData[] = {
+		{ "NativeConst", "" },
+	};
 #endif // WITH_METADATA
+	static const UECodeGen_Private::FStructPropertyParams NewProp_Location;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UWeaponCompCPP_AfterSpawn_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UWeaponCompCPP, nullptr, "AfterSpawn", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04080401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UWeaponCompCPP_AfterSpawn_Statics::Function_MetaDataParams), Z_Construct_UFunction_UWeaponCompCPP_AfterSpawn_Statics::Function_MetaDataParams) };
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UWeaponCompCPP_AfterSpawn_Statics::NewProp_Location = { "Location", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(WeaponCompCPP_eventAfterSpawn_Parms, Location), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Location_MetaData), NewProp_Location_MetaData) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UWeaponCompCPP_AfterSpawn_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UWeaponCompCPP_AfterSpawn_Statics::NewProp_Location,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UWeaponCompCPP_AfterSpawn_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UWeaponCompCPP_AfterSpawn_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UWeaponCompCPP, nullptr, "AfterSpawn", nullptr, nullptr, Z_Construct_UFunction_UWeaponCompCPP_AfterSpawn_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UWeaponCompCPP_AfterSpawn_Statics::PropPointers), sizeof(Z_Construct_UFunction_UWeaponCompCPP_AfterSpawn_Statics::WeaponCompCPP_eventAfterSpawn_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04C80401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UWeaponCompCPP_AfterSpawn_Statics::Function_MetaDataParams), Z_Construct_UFunction_UWeaponCompCPP_AfterSpawn_Statics::Function_MetaDataParams) };
+static_assert(sizeof(Z_Construct_UFunction_UWeaponCompCPP_AfterSpawn_Statics::WeaponCompCPP_eventAfterSpawn_Parms) < MAX_uint16);
 UFunction* Z_Construct_UFunction_UWeaponCompCPP_AfterSpawn()
 {
 	static UFunction* ReturnFunction = nullptr;
@@ -155,9 +170,10 @@ UFunction* Z_Construct_UFunction_UWeaponCompCPP_AfterSpawn()
 }
 DEFINE_FUNCTION(UWeaponCompCPP::execAfterSpawn)
 {
+	P_GET_STRUCT_REF(FVector,Z_Param_Out_Location);
 	P_FINISH;
 	P_NATIVE_BEGIN;
-	P_THIS->AfterSpawn();
+	P_THIS->AfterSpawn(Z_Param_Out_Location);
 	P_NATIVE_END;
 }
 // End Class UWeaponCompCPP Function AfterSpawn
@@ -261,8 +277,8 @@ struct Z_Construct_UClass_UWeaponCompCPP_Statics
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
 		{ &Z_Construct_UFunction_UWeaponCompCPP_actorspawnIG, "actorspawnIG" }, // 202769219
-		{ &Z_Construct_UFunction_UWeaponCompCPP_AfterShoot, "AfterShoot" }, // 1041090195
-		{ &Z_Construct_UFunction_UWeaponCompCPP_AfterSpawn, "AfterSpawn" }, // 2592179470
+		{ &Z_Construct_UFunction_UWeaponCompCPP_AfterShoot, "AfterShoot" }, // 1088627803
+		{ &Z_Construct_UFunction_UWeaponCompCPP_AfterSpawn, "AfterSpawn" }, // 290057872
 		{ &Z_Construct_UFunction_UWeaponCompCPP_PreSpawn, "PreSpawn" }, // 681616275
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
@@ -319,10 +335,10 @@ UWeaponCompCPP::~UWeaponCompCPP() {}
 struct Z_CompiledInDeferFile_FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_WeaponCompCPP_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UWeaponCompCPP, UWeaponCompCPP::StaticClass, TEXT("UWeaponCompCPP"), &Z_Registration_Info_UClass_UWeaponCompCPP, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UWeaponCompCPP), 2283828305U) },
+		{ Z_Construct_UClass_UWeaponCompCPP, UWeaponCompCPP::StaticClass, TEXT("UWeaponCompCPP"), &Z_Registration_Info_UClass_UWeaponCompCPP, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UWeaponCompCPP), 618644928U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_WeaponCompCPP_h_3570645148(TEXT("/Script/GameMech"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_WeaponCompCPP_h_2385600639(TEXT("/Script/GameMech"),
 	Z_CompiledInDeferFile_FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_WeaponCompCPP_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_WeaponCompCPP_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

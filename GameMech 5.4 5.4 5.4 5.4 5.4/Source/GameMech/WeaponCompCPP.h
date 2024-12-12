@@ -24,9 +24,9 @@ protected:
 	UPROPERTY(BlueprintReadWrite) int M_RandInt = 0;
 	UPROPERTY(BlueprintReadWrite) FVector M_ProjectileOffset = FVector(100, 0, -10);
 
-	UFUNCTION(BlueprintCallable) void AfterShoot(const FTransform MakeTransform, const FVector Location);
+	UFUNCTION(BlueprintCallable) void AfterShoot(const FTransform& MakeTransform, const FVector& Location);
 
-	UFUNCTION(BlueprintCallable)void AfterSpawn();
+	UFUNCTION(BlueprintCallable)void AfterSpawn(const FVector& Location);
 
 	UFUNCTION(BlueprintCallable) void actorspawnIG(const FTransform& MakeTransform, const FVector& Location, const FRotator& rotation);
 
