@@ -68,7 +68,7 @@
               "RelativeDocumentMoniker": "Source\\GameMech\\LavaActor.cpp",
               "ToolTip": "M:\\CMP 302\\SUBMISSIONNNN\\GameMechanic\\GameMech 5.4 5.4 5.4 5.4 5.4\\Source\\GameMech\\LavaActor.cpp",
               "RelativeToolTip": "Source\\GameMech\\LavaActor.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAiwBcAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwBYAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-12T14:18:42.305Z",
               "EditorCaption": ""
@@ -81,7 +81,7 @@
               "RelativeDocumentMoniker": "Source\\GameMech\\LavaActor.h",
               "ToolTip": "M:\\CMP 302\\SUBMISSIONNNN\\GameMechanic\\GameMech 5.4 5.4 5.4 5.4 5.4\\Source\\GameMech\\LavaActor.h",
               "RelativeToolTip": "Source\\GameMech\\LavaActor.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-12-12T14:18:41.848Z",
               "EditorCaption": ""
@@ -109,7 +109,8 @@
               "RelativeToolTip": "Source\\GameMech\\TestDummyActor.cpp",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAACYAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-11T17:36:55.305Z"
+              "WhenOpened": "2024-12-11T17:36:55.305Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -121,7 +122,8 @@
               "RelativeToolTip": "Source\\GameMech\\WeaponCompCPP.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-10T19:55:18.337Z"
+              "WhenOpened": "2024-12-10T19:55:18.337Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -133,7 +135,8 @@
               "RelativeToolTip": "Source\\GameMech\\WeaponCompCPP.cpp",
               "ViewState": "AgIAAAwAAAAAAAAAAADgvyMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-10T19:55:18.635Z"
+              "WhenOpened": "2024-12-10T19:55:18.635Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -158,7 +161,8 @@
               "RelativeToolTip": "Source\\GameMech\\FireAmmoActor.cpp",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-10T18:45:09.206Z"
+              "WhenOpened": "2024-12-10T18:45:09.206Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -170,7 +174,8 @@
               "RelativeToolTip": "Source\\GameMech\\ThunderAmmoActor.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-10T18:44:48.346Z"
+              "WhenOpened": "2024-12-10T18:44:48.346Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -182,7 +187,8 @@
               "RelativeToolTip": "Source\\GameMech\\ThunderAmmoActor.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-10T18:44:47.465Z"
+              "WhenOpened": "2024-12-10T18:44:47.465Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -194,7 +200,8 @@
               "RelativeToolTip": "Source\\GameMech\\TurnedAmmoActor.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-10T18:45:06.181Z"
+              "WhenOpened": "2024-12-10T18:45:06.181Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -206,7 +213,8 @@
               "RelativeToolTip": "Source\\GameMech\\TurnedAmmoActor.cpp",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAADIAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-10T18:45:07.477Z"
+              "WhenOpened": "2024-12-10T18:45:07.477Z",
+              "EditorCaption": ""
             }
           ]
         }
