@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Kismet/KismetMathLibrary.h"
+#include "LavaActor.h"
 
 #include "FireAmmoActor.generated.h"
 
@@ -22,6 +23,8 @@ protected:
 	virtual void BeginPlay() override;
 
 	UFUNCTION(BlueprintCallable) void AfterHit(const AActor* otherActor, const UPrimitiveComponent* otherComp, FTransform& MakeTransform);
+
+	UPROPERTY(BlueprintReadWrite) TSubclassOf<ALavaActor> spawnLava;
 
 public:	
 	// Called every frame

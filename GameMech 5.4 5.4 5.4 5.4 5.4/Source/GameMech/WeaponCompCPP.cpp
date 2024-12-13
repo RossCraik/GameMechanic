@@ -5,7 +5,7 @@
 
 void UWeaponCompCPP::AfterShoot(const FTransform& MakeTransform, const FVector& Location, const FRotator& rotation, int &RandomInt)
 {
-	RandomInt = UKismetMathLibrary::RandomIntegerInRange(0, 9);
+	RandomInt = UKismetMathLibrary::RandomIntegerInRange(6, 7);
 
 
 

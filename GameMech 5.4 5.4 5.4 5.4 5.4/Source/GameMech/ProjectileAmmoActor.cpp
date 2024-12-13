@@ -20,7 +20,7 @@ void AProjectileAmmoActor::BeginPlay()
 
 void AProjectileAmmoActor::AfterHit(AActor* otherActor, const UPrimitiveComponent* otherComp)
 {
-	//Destroy();
+	Destroy();
 }
 
 // Called every frame

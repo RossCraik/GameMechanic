@@ -29,9 +29,11 @@ void AFireAmmoActor::AfterHit(const AActor* otherActor, const UPrimitiveComponen
 		location = otherActor->GetActorLocation();
 		location = location * FVector(1.0, 1.0, 0.0);
 		MakeTransform = UKismetMathLibrary::MakeTransform(location, rotation, scale);
+
+		GetWorld()->SpawnActor<ALavaActor>(spawnLava, location, rotation);
 	}
 	
-
+	Destroy();
 }
 
 
