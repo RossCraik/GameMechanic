@@ -24,15 +24,12 @@ struct Z_Construct_UFunction_AThunderAmmoActor_AfterHit_Statics
 {
 	struct ThunderAmmoActor_eventAfterHit_Parms
 	{
-		const AActor* otherActor;
+		AActor* otherActor;
 		const UPrimitiveComponent* otherComp;
 	};
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "ThunderAmmoActor.h" },
-	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_otherActor_MetaData[] = {
-		{ "NativeConst", "" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_otherComp_MetaData[] = {
 		{ "EditInline", "true" },
@@ -44,7 +41,7 @@ struct Z_Construct_UFunction_AThunderAmmoActor_AfterHit_Statics
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AThunderAmmoActor_AfterHit_Statics::NewProp_otherActor = { "otherActor", nullptr, (EPropertyFlags)0x0010000000000082, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ThunderAmmoActor_eventAfterHit_Parms, otherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_otherActor_MetaData), NewProp_otherActor_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AThunderAmmoActor_AfterHit_Statics::NewProp_otherActor = { "otherActor", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ThunderAmmoActor_eventAfterHit_Parms, otherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AThunderAmmoActor_AfterHit_Statics::NewProp_otherComp = { "otherComp", nullptr, (EPropertyFlags)0x0010000000080082, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ThunderAmmoActor_eventAfterHit_Parms, otherComp), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_otherComp_MetaData), NewProp_otherComp_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AThunderAmmoActor_AfterHit_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AThunderAmmoActor_AfterHit_Statics::NewProp_otherActor,
@@ -107,7 +104,7 @@ struct Z_Construct_UClass_AThunderAmmoActor_Statics
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_AThunderAmmoActor_AfterHit, "AfterHit" }, // 2124133108
+		{ &Z_Construct_UFunction_AThunderAmmoActor_AfterHit, "AfterHit" }, // 3308352419
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -160,10 +157,10 @@ AThunderAmmoActor::~AThunderAmmoActor() {}
 struct Z_CompiledInDeferFile_FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_ThunderAmmoActor_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AThunderAmmoActor, AThunderAmmoActor::StaticClass, TEXT("AThunderAmmoActor"), &Z_Registration_Info_UClass_AThunderAmmoActor, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AThunderAmmoActor), 4215437967U) },
+		{ Z_Construct_UClass_AThunderAmmoActor, AThunderAmmoActor::StaticClass, TEXT("AThunderAmmoActor"), &Z_Registration_Info_UClass_AThunderAmmoActor, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AThunderAmmoActor), 1297863679U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_ThunderAmmoActor_h_2404161098(TEXT("/Script/GameMech"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_ThunderAmmoActor_h_1366967705(TEXT("/Script/GameMech"),
 	Z_CompiledInDeferFile_FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_ThunderAmmoActor_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_ThunderAmmoActor_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

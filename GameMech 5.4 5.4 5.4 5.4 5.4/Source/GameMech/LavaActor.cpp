@@ -18,11 +18,34 @@ void ALavaActor::BeginPlay()
 	
 }
 
-void ALavaActor::afterOverlap(const AActor* otherActor, const UPrimitiveComponent* otherComp)
+void ALavaActor::afterOverlap(AActor* otherActor, const UPrimitiveComponent* otherComp)
 {
 	if (otherComp->ComponentHasTag("Enemy")) {
-		
+
+
+		if (ATestDummyActor* dumby = Cast<ATestDummyActor>(otherActor)) {
+
+			dumby->Destroy();
+
+
+
+		}
+
+
+
 	}
+}
+
+void ALavaActor::TimertoDestroy()
+{
+
+
+	GetWorld()->GetTimerManager().SetTimer(TimerHandle_AttackDelay, this, &ALavaActor::DestroyThisLava, 5, false);
+}
+
+void ALavaActor::DestroyThisLava()
+{
+	Destroy();
 }
 
 // Called every frame

@@ -18,16 +18,24 @@ void AThunderAmmoActor::BeginPlay()
 	
 }
 
-void AThunderAmmoActor::AfterHit(const AActor* otherActor, const UPrimitiveComponent* otherComp)
+void AThunderAmmoActor::AfterHit(AActor* otherActor, const UPrimitiveComponent* otherComp)
 {
 	//const AActor* myactor;
 
 	if (otherComp->ComponentHasTag("Enemy")) {
-		//cast to
-
 		
 
+		if (ATestDummyActor* dumby = Cast<ATestDummyActor>(otherActor)) {
+
+			dumby->GetCharacterMovement()->AddImpulse(M_ImpulseForce);
+		
+
+
+		}
+
 		//add Impulse
+
+		
 
 	}
 	Destroy();

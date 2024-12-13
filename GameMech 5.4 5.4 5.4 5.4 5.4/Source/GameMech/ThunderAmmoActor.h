@@ -4,6 +4,11 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "GameFramework/CharacterMovementComponent.h"
+#include "TestDummyActor.h"
+
+#include "Kismet/GameplayStatics.h"
+
 #include "ThunderAmmoActor.generated.h"
 
 
@@ -21,9 +26,10 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	UFUNCTION(BlueprintCallable) void AfterHit(const AActor* otherActor, const UPrimitiveComponent* otherComp);
+	UFUNCTION(BlueprintCallable) void AfterHit(AActor* otherActor, const UPrimitiveComponent* otherComp);
 
 	UPROPERTY(BlueprintReadWrite) FVector M_ImpulseForce = FVector(600, 600, 600);
+
 
 public:	
 	// Called every frame

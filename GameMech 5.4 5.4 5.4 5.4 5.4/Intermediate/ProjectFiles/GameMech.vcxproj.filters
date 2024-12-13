@@ -39,6 +39,12 @@
     <ClInclude Include="..\..\Source\GameMech\FireAmmoActor.h">
       <Filter>Source\GameMech</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\GameMech\FirstPersonCharacterCPP.cpp">
+      <Filter>Source\GameMech</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GameMech\FirstPersonCharacterCPP.h">
+      <Filter>Source\GameMech</Filter>
+    </ClInclude>
     <None Include="..\..\Source\GameMech\GameMech.Build.cs">
       <Filter>Source\GameMech</Filter>
     </None>
@@ -52,6 +58,12 @@
       <Filter>Source\GameMech</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\GameMech\LavaActor.h">
+      <Filter>Source\GameMech</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GameMech\ProjectileAmmoActor.cpp">
+      <Filter>Source\GameMech</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GameMech\ProjectileAmmoActor.h">
       <Filter>Source\GameMech</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\GameMech\TestDummyActor.cpp">

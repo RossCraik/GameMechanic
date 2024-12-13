@@ -18,12 +18,12 @@ void ATurnedAmmoActor::BeginPlay()
 	
 }
 
-void ATurnedAmmoActor::AfterHit(const AActor* otherActor, const UPrimitiveComponent* otherComp)
+void ATurnedAmmoActor::AfterHit(AActor* otherActor, const UPrimitiveComponent* otherComp)
 {
 	if (otherComp->ComponentHasTag("Enemy")) {
-
-
 		
+		
+		otherActor->Tags[0] = FName("NotEnemy");
 		Destroy();
 		
 	}

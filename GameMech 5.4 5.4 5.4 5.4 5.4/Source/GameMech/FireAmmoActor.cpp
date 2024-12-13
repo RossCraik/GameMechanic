@@ -28,7 +28,6 @@ void AFireAmmoActor::AfterHit(const AActor* otherActor, const UPrimitiveComponen
 	if (otherComp->ComponentHasTag("Enemy")) {
 		location = otherActor->GetActorLocation();
 		location = location * FVector(1.0, 1.0, 0.0);
-		location = location + FVector(0.0, 0.0, 5.0);
 		MakeTransform = UKismetMathLibrary::MakeTransform(location, rotation, scale);
 	}
 	

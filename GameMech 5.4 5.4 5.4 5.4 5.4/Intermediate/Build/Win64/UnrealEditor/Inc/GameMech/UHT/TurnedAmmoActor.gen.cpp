@@ -23,15 +23,12 @@ struct Z_Construct_UFunction_ATurnedAmmoActor_AfterHit_Statics
 {
 	struct TurnedAmmoActor_eventAfterHit_Parms
 	{
-		const AActor* otherActor;
+		AActor* otherActor;
 		const UPrimitiveComponent* otherComp;
 	};
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "TurnedAmmoActor.h" },
-	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_otherActor_MetaData[] = {
-		{ "NativeConst", "" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_otherComp_MetaData[] = {
 		{ "EditInline", "true" },
@@ -43,7 +40,7 @@ struct Z_Construct_UFunction_ATurnedAmmoActor_AfterHit_Statics
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ATurnedAmmoActor_AfterHit_Statics::NewProp_otherActor = { "otherActor", nullptr, (EPropertyFlags)0x0010000000000082, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(TurnedAmmoActor_eventAfterHit_Parms, otherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_otherActor_MetaData), NewProp_otherActor_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ATurnedAmmoActor_AfterHit_Statics::NewProp_otherActor = { "otherActor", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(TurnedAmmoActor_eventAfterHit_Parms, otherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ATurnedAmmoActor_AfterHit_Statics::NewProp_otherComp = { "otherComp", nullptr, (EPropertyFlags)0x0010000000080082, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(TurnedAmmoActor_eventAfterHit_Parms, otherComp), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_otherComp_MetaData), NewProp_otherComp_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ATurnedAmmoActor_AfterHit_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ATurnedAmmoActor_AfterHit_Statics::NewProp_otherActor,
@@ -100,7 +97,7 @@ struct Z_Construct_UClass_ATurnedAmmoActor_Statics
 #endif // WITH_METADATA
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_ATurnedAmmoActor_AfterHit, "AfterHit" }, // 3845306451
+		{ &Z_Construct_UFunction_ATurnedAmmoActor_AfterHit, "AfterHit" }, // 3376267980
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -148,10 +145,10 @@ ATurnedAmmoActor::~ATurnedAmmoActor() {}
 struct Z_CompiledInDeferFile_FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_TurnedAmmoActor_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ATurnedAmmoActor, ATurnedAmmoActor::StaticClass, TEXT("ATurnedAmmoActor"), &Z_Registration_Info_UClass_ATurnedAmmoActor, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATurnedAmmoActor), 4253152682U) },
+		{ Z_Construct_UClass_ATurnedAmmoActor, ATurnedAmmoActor::StaticClass, TEXT("ATurnedAmmoActor"), &Z_Registration_Info_UClass_ATurnedAmmoActor, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATurnedAmmoActor), 3310070410U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_TurnedAmmoActor_h_2122664244(TEXT("/Script/GameMech"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_TurnedAmmoActor_h_1315702972(TEXT("/Script/GameMech"),
 	Z_CompiledInDeferFile_FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_TurnedAmmoActor_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_TurnedAmmoActor_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

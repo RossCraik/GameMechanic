@@ -23,15 +23,12 @@ struct Z_Construct_UFunction_ALavaActor_afterOverlap_Statics
 {
 	struct LavaActor_eventafterOverlap_Parms
 	{
-		const AActor* otherActor;
+		AActor* otherActor;
 		const UPrimitiveComponent* otherComp;
 	};
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "LavaActor.h" },
-	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_otherActor_MetaData[] = {
-		{ "NativeConst", "" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_otherComp_MetaData[] = {
 		{ "EditInline", "true" },
@@ -43,7 +40,7 @@ struct Z_Construct_UFunction_ALavaActor_afterOverlap_Statics
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ALavaActor_afterOverlap_Statics::NewProp_otherActor = { "otherActor", nullptr, (EPropertyFlags)0x0010000000000082, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(LavaActor_eventafterOverlap_Parms, otherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_otherActor_MetaData), NewProp_otherActor_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ALavaActor_afterOverlap_Statics::NewProp_otherActor = { "otherActor", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(LavaActor_eventafterOverlap_Parms, otherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ALavaActor_afterOverlap_Statics::NewProp_otherComp = { "otherComp", nullptr, (EPropertyFlags)0x0010000000080082, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(LavaActor_eventafterOverlap_Parms, otherComp), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_otherComp_MetaData), NewProp_otherComp_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ALavaActor_afterOverlap_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ALavaActor_afterOverlap_Statics::NewProp_otherActor,
@@ -72,12 +69,72 @@ DEFINE_FUNCTION(ALavaActor::execafterOverlap)
 }
 // End Class ALavaActor Function afterOverlap
 
+// Begin Class ALavaActor Function DestroyThisLava
+struct Z_Construct_UFunction_ALavaActor_DestroyThisLava_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "LavaActor.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ALavaActor_DestroyThisLava_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ALavaActor, nullptr, "DestroyThisLava", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04080401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ALavaActor_DestroyThisLava_Statics::Function_MetaDataParams), Z_Construct_UFunction_ALavaActor_DestroyThisLava_Statics::Function_MetaDataParams) };
+UFunction* Z_Construct_UFunction_ALavaActor_DestroyThisLava()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ALavaActor_DestroyThisLava_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(ALavaActor::execDestroyThisLava)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->DestroyThisLava();
+	P_NATIVE_END;
+}
+// End Class ALavaActor Function DestroyThisLava
+
+// Begin Class ALavaActor Function TimertoDestroy
+struct Z_Construct_UFunction_ALavaActor_TimertoDestroy_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "LavaActor.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ALavaActor_TimertoDestroy_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ALavaActor, nullptr, "TimertoDestroy", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04080401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ALavaActor_TimertoDestroy_Statics::Function_MetaDataParams), Z_Construct_UFunction_ALavaActor_TimertoDestroy_Statics::Function_MetaDataParams) };
+UFunction* Z_Construct_UFunction_ALavaActor_TimertoDestroy()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ALavaActor_TimertoDestroy_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(ALavaActor::execTimertoDestroy)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->TimertoDestroy();
+	P_NATIVE_END;
+}
+// End Class ALavaActor Function TimertoDestroy
+
 // Begin Class ALavaActor
 void ALavaActor::StaticRegisterNativesALavaActor()
 {
 	UClass* Class = ALavaActor::StaticClass();
 	static const FNameNativePtrPair Funcs[] = {
 		{ "afterOverlap", &ALavaActor::execafterOverlap },
+		{ "DestroyThisLava", &ALavaActor::execDestroyThisLava },
+		{ "TimertoDestroy", &ALavaActor::execTimertoDestroy },
 	};
 	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 }
@@ -100,7 +157,9 @@ struct Z_Construct_UClass_ALavaActor_Statics
 #endif // WITH_METADATA
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_ALavaActor_afterOverlap, "afterOverlap" }, // 2781055420
+		{ &Z_Construct_UFunction_ALavaActor_afterOverlap, "afterOverlap" }, // 3964258794
+		{ &Z_Construct_UFunction_ALavaActor_DestroyThisLava, "DestroyThisLava" }, // 2948335658
+		{ &Z_Construct_UFunction_ALavaActor_TimertoDestroy, "TimertoDestroy" }, // 1343378458
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -148,10 +207,10 @@ ALavaActor::~ALavaActor() {}
 struct Z_CompiledInDeferFile_FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_LavaActor_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ALavaActor, ALavaActor::StaticClass, TEXT("ALavaActor"), &Z_Registration_Info_UClass_ALavaActor, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ALavaActor), 3039300077U) },
+		{ Z_Construct_UClass_ALavaActor, ALavaActor::StaticClass, TEXT("ALavaActor"), &Z_Registration_Info_UClass_ALavaActor, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ALavaActor), 1660145242U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_LavaActor_h_4153973521(TEXT("/Script/GameMech"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_LavaActor_h_2559919335(TEXT("/Script/GameMech"),
 	Z_CompiledInDeferFile_FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_LavaActor_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_LavaActor_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

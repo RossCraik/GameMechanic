@@ -6,6 +6,7 @@
 #include "Components/SkeletalMeshComponent.h"
 #include "Kismet/KismetMathLibrary.h"
 #include "Kismet/GameplayStatics.h"
+#include "ProjectileAmmoActor.h"
 #include "FireAmmoActor.h"
 #include "ThunderAmmoActor.h"
 #include "TurnedAmmoActor.h"
@@ -21,10 +22,18 @@ class GAMEMECH_API UWeaponCompCPP : public USkeletalMeshComponent
 	GENERATED_BODY()
 	
 protected:
+
+	UPROPERTY(BlueprintReadWrite) TSubclassOf<AProjectileAmmoActor> spawnProjectile;
+	UPROPERTY(BlueprintReadWrite) TSubclassOf<AThunderAmmoActor> spawnThunder;
+	UPROPERTY(BlueprintReadWrite) TSubclassOf<AFireAmmoActor> spawnFire;
+	UPROPERTY(BlueprintReadWrite) TSubclassOf<ATurnedAmmoActor> spawnTurned;
+
+
+
 	UPROPERTY(BlueprintReadWrite) int M_RandInt = 0;
 	UPROPERTY(BlueprintReadWrite) FVector M_ProjectileOffset = FVector(100, 0, -10);
 
-	UFUNCTION(BlueprintCallable) void AfterShoot(const FTransform& MakeTransform, const FVector& Location);
+	UFUNCTION(BlueprintCallable) void AfterShoot(const FTransform& MakeTransform, const FVector& Location, const FRotator& rotation, int& RandomInt);
 
 	UFUNCTION(BlueprintCallable)void AfterSpawn(const FVector& Location);
 

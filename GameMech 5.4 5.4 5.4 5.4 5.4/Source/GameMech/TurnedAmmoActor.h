@@ -22,7 +22,7 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	UFUNCTION(BlueprintCallable) void AfterHit(const AActor* otherActor, const UPrimitiveComponent* otherComp);
+	UFUNCTION(BlueprintCallable) void AfterHit(AActor* otherActor, const UPrimitiveComponent* otherComp);
 
 public:	
 	// Called every frame
