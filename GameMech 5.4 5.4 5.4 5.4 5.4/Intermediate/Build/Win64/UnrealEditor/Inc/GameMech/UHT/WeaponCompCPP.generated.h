@@ -14,14 +14,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define GAMEMECH_WeaponCompCPP_generated_h
 
-#define FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_WeaponCompCPP_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_WeaponCompCPP_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execPreSpawn); \
-	DECLARE_FUNCTION(execactorspawnIG); \
 	DECLARE_FUNCTION(execAfterSpawn); \
-	DECLARE_FUNCTION(execAfterShoot);
+	DECLARE_FUNCTION(execAfterShoot); \
+	DECLARE_FUNCTION(execOnPickUp);
 
 
-#define FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_WeaponCompCPP_h_22_INCLASS_NO_PURE_DECLS \
+#define FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_WeaponCompCPP_h_23_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUWeaponCompCPP(); \
 	friend struct Z_Construct_UClass_UWeaponCompCPP_Statics; \
@@ -30,7 +30,7 @@ public: \
 	DECLARE_SERIALIZER(UWeaponCompCPP)
 
 
-#define FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_WeaponCompCPP_h_22_ENHANCED_CONSTRUCTORS \
+#define FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_WeaponCompCPP_h_23_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UWeaponCompCPP(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 private: \
@@ -44,13 +44,13 @@ public: \
 	NO_API virtual ~UWeaponCompCPP();
 
 
-#define FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_WeaponCompCPP_h_19_PROLOG
-#define FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_WeaponCompCPP_h_22_GENERATED_BODY \
+#define FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_WeaponCompCPP_h_20_PROLOG
+#define FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_WeaponCompCPP_h_23_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_WeaponCompCPP_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_WeaponCompCPP_h_22_INCLASS_NO_PURE_DECLS \
-	FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_WeaponCompCPP_h_22_ENHANCED_CONSTRUCTORS \
+	FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_WeaponCompCPP_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_WeaponCompCPP_h_23_INCLASS_NO_PURE_DECLS \
+	FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_WeaponCompCPP_h_23_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

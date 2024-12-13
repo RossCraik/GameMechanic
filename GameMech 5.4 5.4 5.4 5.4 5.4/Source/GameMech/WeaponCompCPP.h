@@ -10,6 +10,7 @@
 #include "FireAmmoActor.h"
 #include "ThunderAmmoActor.h"
 #include "TurnedAmmoActor.h"
+#include "FirstPersonCharacterCPP.h"
 
 #include "WeaponCompCPP.generated.h"
 
@@ -33,12 +34,15 @@ protected:
 	UPROPERTY(BlueprintReadWrite) int M_RandInt = 0;
 	UPROPERTY(BlueprintReadWrite) FVector M_ProjectileOffset = FVector(100, 0, -10);
 
-	UFUNCTION(BlueprintCallable) void AfterShoot(const FTransform& MakeTransform, const FVector& Location, const FRotator& rotation, int& RandomInt);
+	UPROPERTY(BlueprintReadWrite) AFirstPersonCharacterCPP* M_FirstPersonCharacter;
+
+
+	UFUNCTION(BlueprintCallable) void OnPickUp();
+
+	UFUNCTION(BlueprintCallable) void AfterShoot(const FVector& Location, const FRotator& rotation, int& RandomInt);
 
 	UFUNCTION(BlueprintCallable)void AfterSpawn(const FVector& Location);
 
-	UFUNCTION(BlueprintCallable) void actorspawnIG(const FTransform& MakeTransform, const FVector& Location, const FRotator& rotation);
-
-	UFUNCTION(BlueprintCallable) void PreSpawn(FTransform& MakeTransform, FVector& Location, FRotator& rotation);
+	UFUNCTION(BlueprintCallable) void PreSpawn(FVector& Location, FRotator& rotation);
 
 };

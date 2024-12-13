@@ -18,9 +18,29 @@ void AFirstPersonCharacterCPP::BeginPlay()
 	
 }
 
-void AFirstPersonCharacterCPP::After()
+void AFirstPersonCharacterCPP::CameraInput(const float& x, const float& y)
 {
+	AddControllerYawInput(x);
+	AddControllerPitchInput(y);
+}
 
+void AFirstPersonCharacterCPP::MovementInput(const float& x, const float& y)
+{
+	AddMovementInput(GetActorRightVector(), x);
+
+	AddMovementInput(GetActorForwardVector(), y);
+
+}
+
+void AFirstPersonCharacterCPP::JumpInput()
+{
+	ACharacter::Jump();
+	
+}
+
+void AFirstPersonCharacterCPP::StopJumpInput()
+{
+	ACharacter::StopJumping();
 }
 
 // Called every frame

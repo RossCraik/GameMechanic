@@ -15,7 +15,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define GAMEMECH_FirstPersonCharacterCPP_generated_h
 
 #define FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_FirstPersonCharacterCPP_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	DECLARE_FUNCTION(execAfter);
+	DECLARE_FUNCTION(execStopJumpInput); \
+	DECLARE_FUNCTION(execJumpInput); \
+	DECLARE_FUNCTION(execMovementInput); \
+	DECLARE_FUNCTION(execCameraInput);
 
 
 #define FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_FirstPersonCharacterCPP_h_12_INCLASS_NO_PURE_DECLS \

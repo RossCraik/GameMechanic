@@ -19,7 +19,14 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	UFUNCTION(BlueprintCallable) void After();
+	UFUNCTION(BlueprintCallable) void CameraInput(const float& x, const float& y);
+
+	UFUNCTION(BlueprintCallable) void MovementInput(const float& x, const float& y);
+
+	UFUNCTION(BlueprintCallable) void JumpInput();
+
+	UFUNCTION(BlueprintCallable) void StopJumpInput();
+
 
 public:	
 	// Called every frame

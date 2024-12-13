@@ -3,9 +3,23 @@
 
 #include "WeaponCompCPP.h"
 
-void UWeaponCompCPP::AfterShoot(const FTransform& MakeTransform, const FVector& Location, const FRotator& rotation, int &RandomInt)
+
+void UWeaponCompCPP::OnPickUp()
 {
-	RandomInt = UKismetMathLibrary::RandomIntegerInRange(6, 7);
+	if (AFirstPersonCharacterCPP* castobj = Cast<AFirstPersonCharacterCPP>(GetOwner()))
+	{
+		M_FirstPersonCharacter = castobj;
+		
+		
+	}
+	
+
+}
+
+
+void UWeaponCompCPP::AfterShoot(const FVector& Location, const FRotator& rotation, int &RandomInt)
+{
+	RandomInt = UKismetMathLibrary::RandomIntegerInRange(0, 9);
 
 
 
@@ -36,19 +50,9 @@ void UWeaponCompCPP::AfterSpawn(const FVector& Location)
 
 }
 
-void UWeaponCompCPP::actorspawnIG(const FTransform& MakeTransform, const FVector& Location, const FRotator& rotation)
-{
 
-	int RandomInt = UKismetMathLibrary::RandomIntegerInRange(0, 10);
 
-	if (RandomInt == 4 or RandomInt == 5) {
-		GetWorld()->SpawnActor<AThunderAmmoActor>(spawnProjectile, Location, rotation);
-	}
-
-	
-}
-
-void UWeaponCompCPP::PreSpawn(FTransform& MakeTransform, FVector& Location, FRotator& rotation)
+void UWeaponCompCPP::PreSpawn(FVector& Location, FRotator& rotation)
 {
 
 	APlayerCameraManager* myCameraManager = UGameplayStatics::GetPlayerCameraManager(GetWorld(), 0);
@@ -58,6 +62,5 @@ void UWeaponCompCPP::PreSpawn(FTransform& MakeTransform, FVector& Location, FRot
 	FVector sockLocal = GetSocketLocation("Ammo");
 
 	Location = (rotationResult + sockLocal);
-	MakeTransform = UKismetMathLibrary::MakeTransform(Location, rotation, FVector(1, 1, 1));
 
 }
