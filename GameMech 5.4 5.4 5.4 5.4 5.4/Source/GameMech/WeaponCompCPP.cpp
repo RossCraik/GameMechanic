@@ -11,20 +11,24 @@ void UWeaponCompCPP::AfterShoot(const FVector& Location, const FRotator& rotatio
 
 
 
-	if (RandomInt >= 0 && RandomInt <= 3) {
+	if ((RandomInt >= 0 && RandomInt <= 3)) {
 		GetWorld()->SpawnActor<AProjectileAmmoActor>(spawnProjectile, Location, rotation);
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Standard Bullet"));
 	}
 
 	else if (RandomInt >= 4 && RandomInt <= 5) {
 		GetWorld()->SpawnActor<AThunderAmmoActor>(spawnThunder, Location, rotation);
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Thunder Bullet"));
 	}
 
 	else if (RandomInt >= 6 && RandomInt <= 7) {
 		GetWorld()->SpawnActor<AFireAmmoActor>(spawnFire, Location, rotation);
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Fire Bullet"));
 	}
 
 	else if (RandomInt >= 8 && RandomInt <= 9) {
 		GetWorld()->SpawnActor<ATurnedAmmoActor>(spawnTurned, Location, rotation);
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Turned Bullet"));
 	}
 }
 

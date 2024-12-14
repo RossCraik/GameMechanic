@@ -2563,3 +2563,297 @@ _MatTransl_3B7A55D3409170328211A060FC2E3BB1E263C720_BBD650804D314CE7A44ADF9BB4F3
 [2024.12.14-15.38.57:436][708]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
 [2024.12.14-15.38.57:447][709]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
 [2024.12.14-15.38.57:451][709]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.12.14-15.53.44:382][871]LogDerivedDataCache: C:/Users/2102628/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.001 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.12.14-16.13.36:828][260]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.12.14-16.13.36:834][260]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.12.14-16.13.36:843][261]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.12.14-16.13.36:847][261]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.12.14-16.15.16:510][820]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonPlayerController.BP_FirstPersonPlayerController
+[2024.12.14-16.15.26:084][750]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_Weapon_Component.BP_Weapon_Component
+[2024.12.14-16.15.27:589][867]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2024.12.14-16.15.27:589][867]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.14-16.15.27:651][867]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2024.12.14-16.20.43:348][483]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2024.12.14-16.24.06:034][257]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2024.12.14-16.24.06:087][257]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.080
+[2024.12.14-16.24.06:166][257]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPerson/Blueprints/BP_Weapon_Component] ([2] browsable assets)...
+[2024.12.14-16.24.06:166][257]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_Weapon_Component]
+[2024.12.14-16.24.06:893][257]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Blueprints/BP_Weapon_Component_Auto3
+[2024.12.14-16.24.06:905][257]LogSavePackage: Moving 'M:/CMP 302/SUBMISSIONNNN/GameMechanic/GameMech 5.4 5.4 5.4 5.4 5.4/Saved/BP_Weapon_Component_Auto3F1CAF85942079BC740CDADB4AE263094.tmp' to 'M:/CMP 302/SUBMISSIONNNN/GameMechanic/GameMech 5.4 5.4 5.4 5.4 5.4/Saved/Autosaves/Game/FirstPerson/Blueprints/BP_Weapon_Component_Auto3.uasset'
+[2024.12.14-16.24.06:919][257]LogFileHelpers: Auto-saving content packages took 0.832
+[2024.12.14-16.24.42:673][583]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_FireAmmo.BP_FireAmmo
+[2024.12.14-16.24.55:992][ 49]LogSlate: Took 0.001247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.12.14-16.25.05:577][949]LogShaderCompilers: Display: ================================================
+[2024.12.14-16.25.05:577][949]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.12.14-16.25.05:577][949]LogShaderCompilers: Display: Total job queries 239, among them cache hits 29 (12.13%), DDC hits 204 (85.36%), Duplicates 4 (1.67%)
+[2024.12.14-16.25.05:577][949]LogShaderCompilers: Display: Tracking 206 distinct input hashes that result in 169 distinct outputs (82.04%)
+[2024.12.14-16.25.05:577][949]LogShaderCompilers: Display: RAM used: 5.80 MiB of 1.60 GiB budget. Usage: 0.35%
+[2024.12.14-16.25.05:577][949]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.12.14-16.25.05:577][949]LogShaderCompilers: Display: Shaders Compiled: 2
+[2024.12.14-16.25.05:577][949]LogShaderCompilers: Display: Jobs assigned 2, completed 2 (100%)
+[2024.12.14-16.25.05:577][949]LogShaderCompilers: Display: Time job spent in pending queue: average 0.12 s, longest 0.12 s
+[2024.12.14-16.25.05:577][949]LogShaderCompilers: Display: Job execution time: average 1.73 s, max 1.84 s
+[2024.12.14-16.25.05:577][949]LogShaderCompilers: Display: Job life time (pending + execution): average 1.85 s, max 1.95
+[2024.12.14-16.25.05:577][949]LogShaderCompilers: Display: Shader code size: average 30.916 KiB, min 27.629 KiB, max 34.203 KiB
+[2024.12.14-16.25.05:577][949]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.96 s
+[2024.12.14-16.25.05:577][949]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2024.12.14-16.25.05:577][949]LogShaderCompilers: Display: Jobs were issued in 2 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.12.14-16.25.05:577][949]LogShaderCompilers: Display: Average processing rate: 1.02 jobs/sec
+[2024.12.14-16.25.05:577][949]LogShaderCompilers: Display: Total thread time: 0.487 s
+[2024.12.14-16.25.05:577][949]LogShaderCompilers: Display: Total thread preprocess time: 2.671 s
+[2024.12.14-16.25.05:577][949]LogShaderCompilers: Display: Percentage time preprocessing: 548.63%
+[2024.12.14-16.25.05:577][949]LogShaderCompilers: Display: Effective parallelization: 0.25 (times faster than compiling all shaders on one thread). Compare with number of workers: 12
+[2024.12.14-16.25.05:577][949]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.12.14-16.25.05:577][949]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.29 sec, max 0.29 sec, min 0.29 sec)
+[2024.12.14-16.25.05:577][949]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.20 sec, max 0.20 sec, min 0.20 sec)
+[2024.12.14-16.25.05:577][949]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2024.12.14-16.25.05:577][949]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2024.12.14-16.25.05:577][949]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2024.12.14-16.25.05:577][949]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.12.14-16.25.05:577][949]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 59.27% of total time (compiled    1 times, average 0.29 sec, max 0.29 sec, min 0.29 sec)
+[2024.12.14-16.25.05:577][949]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 40.73% of total time (compiled    1 times, average 0.20 sec, max 0.20 sec, min 0.20 sec)
+[2024.12.14-16.25.05:577][949]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2024.12.14-16.25.05:577][949]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2024.12.14-16.25.05:577][949]LogShaderCompilers: Display:                                                  FHitProxyPS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2024.12.14-16.25.05:577][949]LogShaderCompilers: Display: === Material stats ===
+[2024.12.14-16.25.05:577][949]LogShaderCompilers: Display: Materials Cooked:        0
+[2024.12.14-16.25.05:577][949]LogShaderCompilers: Display: Materials Translated:    124
+[2024.12.14-16.25.05:577][949]LogShaderCompilers: Display: Material Total Translate Time: 0.09 s
+[2024.12.14-16.25.05:577][949]LogShaderCompilers: Display: Material Translation Only: 0.02 s (26%)
+[2024.12.14-16.25.05:577][949]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2024.12.14-16.25.05:577][949]LogShaderCompilers: Display: Material Cache Hits: 17 (14%)
+[2024.12.14-16.25.05:577][949]LogShaderCompilers: Display: ================================================
+[2024.12.14-16.26.04:695][455]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2024.12.14-16.27.17:622][852]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2024.12.14-16.28.05:896][996]LogShaderCompilers: Display: ================================================
+[2024.12.14-16.28.05:896][996]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.12.14-16.28.05:896][996]LogShaderCompilers: Display: Total job queries 305, among them cache hits 54 (17.70%), DDC hits 209 (68.52%), Duplicates 4 (1.31%)
+[2024.12.14-16.28.05:896][996]LogShaderCompilers: Display: Tracking 247 distinct input hashes that result in 193 distinct outputs (78.14%)
+[2024.12.14-16.28.05:896][996]LogShaderCompilers: Display: RAM used: 6.39 MiB of 1.60 GiB budget. Usage: 0.39%
+[2024.12.14-16.28.05:896][996]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.12.14-16.28.05:896][996]LogShaderCompilers: Display: Shaders Compiled: 38
+[2024.12.14-16.28.05:896][996]LogShaderCompilers: Display: Jobs assigned 38, completed 38 (100%)
+[2024.12.14-16.28.05:896][996]LogShaderCompilers: Display: Average time worker was idle: 7.62 s
+[2024.12.14-16.28.05:897][996]LogShaderCompilers: Display: Time job spent in pending queue: average 0.08 s, longest 0.12 s
+[2024.12.14-16.28.05:897][996]LogShaderCompilers: Display: Job execution time: average 0.49 s, max 1.84 s
+[2024.12.14-16.28.05:897][996]LogShaderCompilers: Display: Job life time (pending + execution): average 0.57 s, max 1.95
+[2024.12.14-16.28.05:897][996]LogShaderCompilers: Display: Shader code size: average 34.487 KiB, min 27.629 KiB, max 59.199 KiB
+[2024.12.14-16.28.05:897][996]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 6.81 s
+[2024.12.14-16.28.05:897][996]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2024.12.14-16.28.05:897][996]LogShaderCompilers: Display: Jobs were issued in 38 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.12.14-16.28.05:897][996]LogShaderCompilers: Display: Average processing rate: 5.58 jobs/sec
+[2024.12.14-16.28.05:897][996]LogShaderCompilers: Display: Total thread time: 8.932 s
+[2024.12.14-16.28.05:897][996]LogShaderCompilers: Display: Total thread preprocess time: 3.323 s
+[2024.12.14-16.28.05:897][996]LogShaderCompilers: Display: Percentage time preprocessing: 37.20%
+[2024.12.14-16.28.05:897][996]LogShaderCompilers: Display: Effective parallelization: 1.31 (times faster than compiling all shaders on one thread). Compare with number of workers: 12
+[2024.12.14-16.28.05:897][996]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.12.14-16.28.05:897][996]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    8 times, average 0.31 sec, max 0.36 sec, min 0.28 sec)
+[2024.12.14-16.28.05:897][996]LogShaderCompilers: Display:                                                  FHitProxyPS (compiled    1 times, average 0.28 sec, max 0.28 sec, min 0.28 sec)
+[2024.12.14-16.28.05:897][996]LogShaderCompilers: Display:              TShadowDepthPSPixelShadowDepth_VirtualShadowMap (compiled    1 times, average 0.26 sec, max 0.26 sec, min 0.26 sec)
+[2024.12.14-16.28.05:897][996]LogShaderCompilers: Display:                                            FDistortionMeshPS (compiled    1 times, average 0.26 sec, max 0.26 sec, min 0.26 sec)
+[2024.12.14-16.28.05:897][996]LogShaderCompilers: Display:                                                  FVelocityPS (compiled    1 times, average 0.26 sec, max 0.26 sec, min 0.26 sec)
+[2024.12.14-16.28.05:897][996]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.12.14-16.28.05:897][996]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 28.06% of total time (compiled    8 times, average 0.31 sec, max 0.36 sec, min 0.28 sec)
+[2024.12.14-16.28.05:897][996]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 20.13% of total time (compiled    8 times, average 0.22 sec, max 0.28 sec, min 0.19 sec)
+[2024.12.14-16.28.05:897][996]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 13.63% of total time (compiled    7 times, average 0.17 sec, max 0.22 sec, min 0.14 sec)
+[2024.12.14-16.28.05:897][996]LogShaderCompilers: Display:                                                 FLumenCardVS - 13.17% of total time (compiled    7 times, average 0.17 sec, max 0.23 sec, min 0.14 sec)
+[2024.12.14-16.28.05:897][996]LogShaderCompilers: Display:                                                  FHitProxyPS - 3.10% of total time (compiled    1 times, average 0.28 sec, max 0.28 sec, min 0.28 sec)
+[2024.12.14-16.28.05:897][996]LogShaderCompilers: Display: === Material stats ===
+[2024.12.14-16.28.05:898][996]LogShaderCompilers: Display: Materials Cooked:        0
+[2024.12.14-16.28.05:898][996]LogShaderCompilers: Display: Materials Translated:    130
+[2024.12.14-16.28.05:898][996]LogShaderCompilers: Display: Material Total Translate Time: 0.09 s
+[2024.12.14-16.28.05:898][996]LogShaderCompilers: Display: Material Translation Only: 0.03 s (27%)
+[2024.12.14-16.28.05:898][996]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2024.12.14-16.28.05:898][996]LogShaderCompilers: Display: Material Cache Hits: 17 (13%)
+[2024.12.14-16.28.05:898][996]LogShaderCompilers: Display: ================================================
+[2024.12.14-16.33.42:158][105]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2024.12.14-16.33.42:175][105]Candidate modules for hot reload:
+[2024.12.14-16.33.42:175][105]  GameMech
+[2024.12.14-16.33.42:183][105]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.4/Engine/Build/BatchFiles/Build.bat  -ModuleWithSuffix=GameMech,3509 GameMechEditor Win64 Development -Project="M:/CMP 302/SUBMISSIONNNN/GameMechanic/GameMech 5.4 5.4 5.4 5.4 5.4/GameMech.uproject" "M:/CMP 302/SUBMISSIONNNN/GameMechanic/GameMech 5.4 5.4 5.4 5.4 5.4/GameMech.uproject"  -IgnoreJunk]
+[2024.12.14-16.33.42:188][105]Warning: Starting HotReload took  0.0s.
+[2024.12.14-16.33.43:964][220]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2024.12.14-16.33.43:964][220]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.14-16.33.44:045][220]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2024.12.14-16.33.53:614][265]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2024.12.14-16.33.54:340][338]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.14-16.33.54:379][338]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPerson/Blueprints/BP_Weapon_Component] ([2] browsable assets)...
+[2024.12.14-16.33.54:379][338]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_Weapon_Component]
+[2024.12.14-16.33.54:644][338]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Weapon_Component
+[2024.12.14-16.33.54:657][338]LogSavePackage: Moving 'M:/CMP 302/SUBMISSIONNNN/GameMechanic/GameMech 5.4 5.4 5.4 5.4 5.4/Saved/BP_Weapon_Component019386904098BAE311C4D080E78458D3.tmp' to 'M:/CMP 302/SUBMISSIONNNN/GameMechanic/GameMech 5.4 5.4 5.4 5.4 5.4/Content/FirstPerson/Blueprints/BP_Weapon_Component.uasset'
+[2024.12.14-16.33.54:686][338]LogFileHelpers: InternalPromptForCheckoutAndSave took 344.556 ms (total: 1.19 sec)
+[2024.12.14-16.33.54:745][338]LogContentValidation: Display: Starting to validate 1 assets
+[2024.12.14-16.33.54:745][338]LogContentValidation: Enabled validators:
+[2024.12.14-16.33.54:745][338]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.12.14-16.33.54:745][338]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.12.14-16.33.54:745][338]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.12.14-16.33.54:745][338]LogContentValidation: Display: Validating asset /Game/FirstPerson/Blueprints/BP_Weapon_Component.BP_Weapon_Component
+[2024.12.14-16.33.54:745][338]AssetCheck: /Game/FirstPerson/Blueprints/BP_Weapon_Component Validating asset
+[2024.12.14-16.34.03:940][719]CompilerResultsLog: Using bundled DotNet SDK version: 6.0.302
+[2024.12.14-16.34.03:940][719]CompilerResultsLog: Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -ModuleWithSuffix=GameMech,3509 GameMechEditor Win64 Development -Project="M:/CMP 302/SUBMISSIONNNN/GameMechanic/GameMech 5.4 5.4 5.4 5.4 5.4/GameMech.uproject" "M:/CMP 302/SUBMISSIONNNN/GameMechanic/GameMech 5.4 5.4 5.4 5.4 5.4/GameMech.uproject"  -IgnoreJunk
+[2024.12.14-16.34.03:940][719]CompilerResultsLog: Log file: C:\Users\2102628\AppData\Local\UnrealBuildTool\Log.txt
+[2024.12.14-16.34.03:940][719]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (M:\CMP 302\SUBMISSIONNNN\GameMechanic).
+[2024.12.14-16.34.03:940][719]CompilerResultsLog: Parsing headers for GameMechEditor
+[2024.12.14-16.34.03:940][719]CompilerResultsLog:   Running Internal UnrealHeaderTool "M:\CMP 302\SUBMISSIONNNN\GameMechanic\GameMech 5.4 5.4 5.4 5.4 5.4\GameMech.uproject" "M:\CMP 302\SUBMISSIONNNN\GameMechanic\GameMech 5.4 5.4 5.4 5.4 5.4\Intermediate\Build\Win64\GameMechEditor\Development\GameMechEditor.uhtmanifest" -WarningsAsErrors -installed
+[2024.12.14-16.34.03:940][719]CompilerResultsLog: Total of 1 written
+[2024.12.14-16.34.03:940][719]CompilerResultsLog: Reflection code generated for GameMechEditor in 1.7866034 seconds
+[2024.12.14-16.34.03:940][719]CompilerResultsLog: Building GameMechEditor...
+[2024.12.14-16.34.03:940][720]CompilerResultsLog: Using Visual Studio 2022 14.38.33143 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2024.12.14-16.34.03:940][720]CompilerResultsLog: [Upgrade]
+[2024.12.14-16.34.03:940][720]CompilerResultsLog: [Upgrade] Using backward-compatible include order. The latest version of UE has changed the order of includes, which may require code changes. The current setting is:
+[2024.12.14-16.34.03:940][720]CompilerResultsLog: [Upgrade]     IncludeOrderVersion = EngineIncludeOrderVersion.Oldest
+[2024.12.14-16.34.03:940][720]CompilerResultsLog: [Upgrade] Suppress this message by setting 'IncludeOrderVersion = EngineIncludeOrderVersion.Latest;' in GameMechEditor.Target.cs.
+[2024.12.14-16.34.03:940][720]CompilerResultsLog: [Upgrade] Alternatively you can set this to 'EngineIncludeOrderVersion.Latest' to always use the latest include order. This will potentially cause compile errors when integrating new versions of the engine.
+[2024.12.14-16.34.03:940][720]CompilerResultsLog: [Upgrade]
+[2024.12.14-16.34.03:940][720]CompilerResultsLog: Determining max actions to execute in parallel (16 physical cores, 24 logical cores)
+[2024.12.14-16.34.03:940][720]CompilerResultsLog:   Executing up to 16 processes, one per physical core
+[2024.12.14-16.34.03:940][720]CompilerResultsLog:   Requested 1.5 GB memory per action, 14.59 GB available: limiting max parallel actions to 9
+[2024.12.14-16.34.03:940][720]CompilerResultsLog: Using Parallel executor to run 5 action(s)
+[2024.12.14-16.34.03:940][720]CompilerResultsLog: ------ Building 5 action(s) started ------
+[2024.12.14-16.34.03:940][720]CompilerResultsLog: [1/5] Compile [x64] WeaponCompCPP.gen.cpp
+[2024.12.14-16.34.03:940][720]CompilerResultsLog: M:\CMP 302\SUBMISSIONNNN\GameMechanic\GameMech 5.4 5.4 5.4 5.4 5.4\Source\GameMech\WeaponCompCPP.h(9): fatal error C1083: Cannot open include file: 'KismetInputLibrary.h': No such file or directory
+[2024.12.14-16.34.03:940][720]CompilerResultsLog: [2/5] Compile [x64] WeaponCompCPP.cpp
+[2024.12.14-16.34.03:940][720]CompilerResultsLog: M:\CMP 302\SUBMISSIONNNN\GameMechanic\GameMech 5.4 5.4 5.4 5.4 5.4\Source\GameMech\WeaponCompCPP.h(9): fatal error C1083: Cannot open include file: 'KismetInputLibrary.h': No such file or directory
+[2024.12.14-16.34.03:940][720]CompilerResultsLog: Total time in Parallel executor: 17.48 seconds
+[2024.12.14-16.34.03:940][720]CompilerResultsLog: Total execution time: 21.30 seconds
+[2024.12.14-16.34.03:940][720]LogMainFrame: MainFrame: Module compiling took 21.781 seconds
+[2024.12.14-16.34.03:940][720]Warning: HotReload failed, recompile failed
+[2024.12.14-16.34.31:597][962]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2024.12.14-16.34.31:608][962]Candidate modules for hot reload:
+[2024.12.14-16.34.31:608][962]  GameMech
+[2024.12.14-16.34.31:615][962]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.4/Engine/Build/BatchFiles/Build.bat  -ModuleWithSuffix=GameMech,2159 GameMechEditor Win64 Development -Project="M:/CMP 302/SUBMISSIONNNN/GameMechanic/GameMech 5.4 5.4 5.4 5.4 5.4/GameMech.uproject" "M:/CMP 302/SUBMISSIONNNN/GameMechanic/GameMech 5.4 5.4 5.4 5.4 5.4/GameMech.uproject"  -IgnoreJunk]
+[2024.12.14-16.34.31:621][962]Warning: Starting HotReload took  0.0s.
+[2024.12.14-16.34.56:314][572]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2024.12.14-16.34.56:319][572]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.024
+[2024.12.14-16.34.56:319][572]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FireAmmo] ([2] browsable assets)...
+[2024.12.14-16.34.56:349][572]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPerson/Blueprints/BP_FireAmmo.BP_FireAmmo]
+[2024.12.14-16.34.56:349][572]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FireAmmo]
+[2024.12.14-16.34.56:474][572]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Blueprints/BP_FireAmmo_Auto4
+[2024.12.14-16.34.56:474][572]LogSavePackage: Moving 'M:/CMP 302/SUBMISSIONNNN/GameMechanic/GameMech 5.4 5.4 5.4 5.4 5.4/Saved/BP_FireAmmo_Auto474E21A9F4025C35528D19485ABE0FFEA.tmp' to 'M:/CMP 302/SUBMISSIONNNN/GameMechanic/GameMech 5.4 5.4 5.4 5.4 5.4/Saved/Autosaves/Game/FirstPerson/Blueprints/BP_FireAmmo_Auto4.uasset'
+[2024.12.14-16.34.56:485][572]LogFileHelpers: Auto-saving content packages took 0.166
+[2024.12.14-16.35.20:521][325]CompilerResultsLog: Using bundled DotNet SDK version: 6.0.302
+[2024.12.14-16.35.20:521][325]CompilerResultsLog: Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -ModuleWithSuffix=GameMech,2159 GameMechEditor Win64 Development -Project="M:/CMP 302/SUBMISSIONNNN/GameMechanic/GameMech 5.4 5.4 5.4 5.4 5.4/GameMech.uproject" "M:/CMP 302/SUBMISSIONNNN/GameMechanic/GameMech 5.4 5.4 5.4 5.4 5.4/GameMech.uproject"  -IgnoreJunk
+[2024.12.14-16.35.20:521][325]CompilerResultsLog: Log file: C:\Users\2102628\AppData\Local\UnrealBuildTool\Log.txt
+[2024.12.14-16.35.20:521][325]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (M:\CMP 302\SUBMISSIONNNN\GameMechanic).
+[2024.12.14-16.35.20:521][325]CompilerResultsLog: Parsing headers for GameMechEditor
+[2024.12.14-16.35.20:521][325]CompilerResultsLog:   Running Internal UnrealHeaderTool "M:\CMP 302\SUBMISSIONNNN\GameMechanic\GameMech 5.4 5.4 5.4 5.4 5.4\GameMech.uproject" "M:\CMP 302\SUBMISSIONNNN\GameMechanic\GameMech 5.4 5.4 5.4 5.4 5.4\Intermediate\Build\Win64\GameMechEditor\Development\GameMechEditor.uhtmanifest" -WarningsAsErrors -installed
+[2024.12.14-16.35.20:521][325]CompilerResultsLog: Total of 1 written
+[2024.12.14-16.35.20:521][325]CompilerResultsLog: Reflection code generated for GameMechEditor in 1.8914979 seconds
+[2024.12.14-16.35.20:521][325]CompilerResultsLog: Building GameMechEditor...
+[2024.12.14-16.35.20:521][325]CompilerResultsLog: Using Visual Studio 2022 14.38.33143 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2024.12.14-16.35.20:521][325]CompilerResultsLog: [Upgrade]
+[2024.12.14-16.35.20:521][325]CompilerResultsLog: [Upgrade] Using backward-compatible include order. The latest version of UE has changed the order of includes, which may require code changes. The current setting is:
+[2024.12.14-16.35.20:521][325]CompilerResultsLog: [Upgrade]     IncludeOrderVersion = EngineIncludeOrderVersion.Oldest
+[2024.12.14-16.35.20:521][325]CompilerResultsLog: [Upgrade] Suppress this message by setting 'IncludeOrderVersion = EngineIncludeOrderVersion.Latest;' in GameMechEditor.Target.cs.
+[2024.12.14-16.35.20:521][325]CompilerResultsLog: [Upgrade] Alternatively you can set this to 'EngineIncludeOrderVersion.Latest' to always use the latest include order. This will potentially cause compile errors when integrating new versions of the engine.
+[2024.12.14-16.35.20:521][325]CompilerResultsLog: [Upgrade]
+[2024.12.14-16.35.20:521][325]CompilerResultsLog: Determining max actions to execute in parallel (16 physical cores, 24 logical cores)
+[2024.12.14-16.35.20:521][325]CompilerResultsLog:   Executing up to 16 processes, one per physical core
+[2024.12.14-16.35.20:521][325]CompilerResultsLog:   Requested 1.5 GB memory per action, 15.86 GB available: limiting max parallel actions to 10
+[2024.12.14-16.35.20:521][325]CompilerResultsLog: Using Parallel executor to run 5 action(s)
+[2024.12.14-16.35.20:521][325]CompilerResultsLog: ------ Building 5 action(s) started ------
+[2024.12.14-16.35.20:521][325]CompilerResultsLog: [1/5] Compile [x64] WeaponCompCPP.cpp
+[2024.12.14-16.35.20:521][325]CompilerResultsLog: [2/5] Compile [x64] WeaponCompCPP.gen.cpp
+[2024.12.14-16.35.20:521][325]CompilerResultsLog: [3/5] Link [x64] UnrealEditor-GameMech-2159.lib
+[2024.12.14-16.35.20:521][325]CompilerResultsLog:    Creating library M:\CMP 302\SUBMISSIONNNN\GameMechanic\GameMech 5.4 5.4 5.4 5.4 5.4\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameMech\UnrealEditor-GameMech-2159.lib and object M:\CMP 302\SUBMISSIONNNN\GameMechanic\GameMech 5.4 5.4 5.4 5.4 5.4\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameMech\UnrealEditor-GameMech-2159.exp
+[2024.12.14-16.35.20:521][325]CompilerResultsLog: [4/5] Link [x64] UnrealEditor-GameMech-2159.dll
+[2024.12.14-16.35.20:521][325]CompilerResultsLog:    Creating library M:\CMP 302\SUBMISSIONNNN\GameMechanic\GameMech 5.4 5.4 5.4 5.4 5.4\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameMech\UnrealEditor-GameMech-2159.sup.lib and object M:\CMP 302\SUBMISSIONNNN\GameMechanic\GameMech 5.4 5.4 5.4 5.4 5.4\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameMech\UnrealEditor-GameMech-2159.sup.exp
+[2024.12.14-16.35.20:521][325]CompilerResultsLog: [5/5] WriteMetadata GameMechEditor.target
+[2024.12.14-16.35.20:521][325]CompilerResultsLog: Total time in Parallel executor: 45.20 seconds
+[2024.12.14-16.35.20:521][325]CompilerResultsLog: Total execution time: 48.66 seconds
+[2024.12.14-16.35.20:521][325]LogMainFrame: MainFrame: Module compiling took 48.924 seconds
+[2024.12.14-16.35.20:541][325]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2024.12.14-16.35.20:792][325]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2024.12.14-16.35.20:817][325]Display: HotReload took 49.2s.
+[2024.12.14-16.35.20:817][325]Display: Reload/Re-instancing Complete: 1 package changed, 8 classes unchanged, 16 functions remapped
+[2024.12.14-16.35.24:952][777]LogSlate: Window 'Message Log' being destroyed
+[2024.12.14-16.35.24:956][777]LogSlate: Window 'Message Log' being destroyed
+[2024.12.14-16.35.25:959][895]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.12.14-16.35.25:981][895]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.12.14-16.35.25:981][895]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.12.14-16.35.25:989][895]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 8.480 ms (total: 107.172 ms)
+[2024.12.14-16.35.25:991][895]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.12.14-16.35.26:023][895]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.12.14-16.35.26:032][895]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008929s)
+[2024.12.14-16.35.26:032][895]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.009006s)
+[2024.12.14-16.35.26:101][895]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2024.12.14-16.35.26:112][895]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.12.14-16.35.26:113][895]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.12.14-16.35.26:113][895]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.12.14-16.35.26:113][895]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.12.14-16.35.26:113][895]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.12.14-16.35.26:115][895]LogContentBundle: [FirstPersonMap(Standalone)] Creating new container.
+[2024.12.14-16.35.26:115][895]LogWorldPartition: Display: WorldPartition initialize took 1.451 ms (total: 1.43 sec)
+[2024.12.14-16.35.26:115][895]LogPlayLevel: PIE: World Init took: (0.002808s)
+[2024.12.14-16.35.26:146][895]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2024.12.14-16.35.26:146][895]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.14-16.35.26:146][895]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.14-16.35.26:146][895]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.14-16.35.26:146][895]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.14-16.35.26:146][895]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.12.14-16.35.26:146][895]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.12.14-16.35.26:146][895]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.12.14-16.35.26:146][895]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.14-16.35.26:146][895]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.14-16.35.26:146][895]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.14-16.35.26:146][895]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.14-16.35.26:149][895]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.14-16.35.26:157][895]LogAudioMixer: Display: Using Audio Hardware Device Unknown
+[2024.12.14-16.35.26:157][895]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.14-16.35.26:157][895]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.14-16.35.26:157][895]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.14-16.35.26:158][895]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2024.12.14-16.35.26:158][895]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2024.12.14-16.35.26:160][895]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2024.12.14-16.35.26:160][895]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=2044
+[2024.12.14-16.35.26:160][895]LogInit: FAudioDevice initialized with ID 15.
+[2024.12.14-16.35.26:160][895]LogAudio: Display: Audio Device (ID: 15) registered with world 'FirstPersonMap'.
+[2024.12.14-16.35.26:160][895]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2024.12.14-16.35.26:163][895]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.12.14-16.35.26:170][895]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.12.14-16.35.26
+[2024.12.14-16.35.26:171][895]LogWorld: Bringing up level for play took: 0.005701
+[2024.12.14-16.35.26:173][895]LogOnline: OSS: Created online subsystem instance for: :Context_34
+[2024.12.14-16.35.26:204][895]PIE: Server logged in
+[2024.12.14-16.35.26:204][895]PIE: Play in editor total start time 0.227 seconds.
+[2024.12.14-16.35.30:286][349]LogCharacterMovement: BP_TestDummy_C_UAID_2C58B991B77DCF3802_1770153074 is stuck and failed to move! Velocity: X=166.05 Y=-249.86 Z=0.00 Location: X=1051.06 Y=1960.85 Z=90.21 Normal: X=0.25 Y=0.97 Z=-0.00 PenetrationDepth:2.414 Actor:BP_TestDummy_C_UAID_2C58B991B77DCF3802_1754263072 Component:CharacterMesh0 BoneName:hand_r (0 other events since notify)
+[2024.12.14-16.35.31:863][517]LogCharacterMovement: BP_TestDummy_C_UAID_2C58B991B77DCF3802_1758075073 is stuck and failed to move! Velocity: X=156.98 Y=255.65 Z=0.00 Location: X=1341.91 Y=2202.50 Z=90.21 Normal: X=0.12 Y=0.99 Z=-0.00 PenetrationDepth:2.140 Actor:BP_TestDummy_C_UAID_2C58B991B77DCF3802_1609211068 Component:CharacterMesh0 BoneName:hand_r (0 other events since notify)
+[2024.12.14-16.35.31:921][523]LogCharacterMovement: BP_TestDummy_C_UAID_2C58B991B77DCF3802_1607568067 is stuck and failed to move! Velocity: X=85.84 Y=129.55 Z=0.00 Location: X=1418.29 Y=2061.03 Z=90.21 Normal: X=0.94 Y=0.33 Z=-0.00 PenetrationDepth:1.563 Actor:BP_TestDummy_C_UAID_2C58B991B77DCF3802_1750837071 Component:CharacterMesh0 BoneName:hand_l (0 other events since notify)
+[2024.12.14-16.35.32:040][535]LogCharacterMovement: BP_TestDummy_C_UAID_A8A15925E1C5662A02_1375896802 is stuck and failed to move! Velocity: X=104.84 Y=119.90 Z=0.00 Location: X=1463.33 Y=1999.90 Z=90.21 Normal: X=0.02 Y=-1.00 Z=-0.00 PenetrationDepth:0.303 Actor:BP_TestDummy_C_UAID_2C58B991B77DCF3802_1607568067 Component:CharacterMesh0 BoneName:lowerarm_l (0 other events since notify)
+[2024.12.14-16.35.32:701][600]LogCharacterMovement: BP_TestDummy_C_UAID_2C58B991B77DCF3802_1609211068 is stuck and failed to move! Velocity: X=182.45 Y=229.23 Z=0.00 Location: X=1498.73 Y=2180.87 Z=90.21 Normal: X=0.92 Y=0.38 Z=-0.00 PenetrationDepth:3.059 Actor:BP_TestDummy_C_UAID_2C58B991B77DCF3802_1750837071 Component:CharacterMesh0 BoneName:hand_l (0 other events since notify)
+[2024.12.14-16.35.33:010][632]LogCharacterMovement: BP_TestDummy_C_UAID_2C58B991B77DCF3802_1748637070 is stuck and failed to move! Velocity: X=181.37 Y=238.97 Z=0.00 Location: X=1480.16 Y=2135.69 Z=90.21 Normal: X=-0.99 Y=0.14 Z=-0.00 PenetrationDepth:17.850 Actor:BP_TestDummy_C_UAID_2C58B991B77DCF3802_1607568067 Component:CharacterMesh0 BoneName:lowerarm_l (0 other events since notify)
+[2024.12.14-16.35.33:633][704]LogCharacterMovement: BP_TestDummy_C_UAID_2C58B991B77DCF3802_1770153074 is stuck and failed to move! Velocity: X=-278.26 Y=-0.68 Z=0.00 Location: X=1503.92 Y=2086.41 Z=90.21 Normal: X=0.34 Y=0.94 Z=0.00 PenetrationDepth:1.738 Actor:BP_TestDummy_C_UAID_2C58B991B77DCF3802_1611546069 Component:CharacterMesh0 BoneName:hand_l (10 other events since notify)
+[2024.12.14-16.35.35:292][898]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.14-16.35.35:292][898]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.12.14-16.35.35:292][898]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.12.14-16.35.35:292][898]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.14-16.35.35:293][898]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2024.12.14-16.35.35:293][898]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.12.14-16.35.35:293][898]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.12.14-16.35.35:293][898]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.12.14-16.35.35:295][898]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.14-16.35.35:302][898]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.14-16.35.35:323][898]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.14-16.35.35:331][898]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2024.12.14-16.35.35:331][898]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.12.14-16.35.35:333][898]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.12.14-16.35.35:360][898]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2024.12.14-16.35.35:486][899]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2024.12.14-16.39.24:099][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2024.12.14-16.39.25:329][ 95]LogSlate: Window 'Save Content' being destroyed
+[2024.12.14-16.39.25:340][ 95]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.14-16.39.25:394][ 95]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FireAmmo] ([2] browsable assets)...
+[2024.12.14-16.39.25:394][ 95]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FireAmmo]
+[2024.12.14-16.39.26:252][ 95]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FireAmmo
+[2024.12.14-16.39.26:378][ 95]LogSavePackage: Moving 'M:/CMP 302/SUBMISSIONNNN/GameMechanic/GameMech 5.4 5.4 5.4 5.4 5.4/Saved/BP_FireAmmo6BA128084A7B3259322B79AB0C214F2F.tmp' to 'M:/CMP 302/SUBMISSIONNNN/GameMechanic/GameMech 5.4 5.4 5.4 5.4 5.4/Content/FirstPerson/Blueprints/BP_FireAmmo.uasset'
+[2024.12.14-16.39.26:594][ 95]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.25 sec (total: 2.44 sec)
+[2024.12.14-16.39.26:826][ 95]LogContentValidation: Display: Starting to validate 1 assets
+[2024.12.14-16.39.26:826][ 95]LogContentValidation: Enabled validators:
+[2024.12.14-16.39.26:826][ 95]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.12.14-16.39.26:826][ 95]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.12.14-16.39.26:826][ 95]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.12.14-16.39.26:826][ 95]LogContentValidation: Display: Validating asset /Game/FirstPerson/Blueprints/BP_FireAmmo.BP_FireAmmo
+[2024.12.14-16.39.26:827][ 95]AssetCheck: /Game/FirstPerson/Blueprints/BP_FireAmmo Validating asset
+[2024.12.14-16.39.31:958][616]LogSlate: Window 'BP_Weapon_Component' being destroyed
+[2024.12.14-16.39.31:961][616]LogSlate: Window 'BP_Weapon_Component' being destroyed
+[2024.12.14-16.39.32:070][616]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2024.12.14-16.39.32:070][616]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.14-16.39.32:346][616]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms

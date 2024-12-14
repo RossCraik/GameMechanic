@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "M:\\CMP 302\\SUBMISSIONNNN\\GameMechanic\\GameMech 5.4 5.4 5.4 5.4 5.4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D49BB71C-70E9-3019-8043-0D8D3DC0B799}|Intermediate\\ProjectFiles\\GameMech.vcxproj|M:\\CMP 302\\SUBMISSIONNNN\\GameMechanic\\GameMech 5.4 5.4 5.4 5.4 5.4\\Source\\GameMech\\TestDummyActor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D49BB71C-70E9-3019-8043-0D8D3DC0B799}|Intermediate\\ProjectFiles\\GameMech.vcxproj|solutionrelative:Source\\GameMech\\TestDummyActor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D49BB71C-70E9-3019-8043-0D8D3DC0B799}|Intermediate\\ProjectFiles\\GameMech.vcxproj|M:\\CMP 302\\SUBMISSIONNNN\\GameMechanic\\GameMech 5.4 5.4 5.4 5.4 5.4\\Source\\GameMech\\TestDummyActor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D49BB71C-70E9-3019-8043-0D8D3DC0B799}|Intermediate\\ProjectFiles\\GameMech.vcxproj|solutionrelative:Source\\GameMech\\TestDummyActor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{D49BB71C-70E9-3019-8043-0D8D3DC0B799}|Intermediate\\ProjectFiles\\GameMech.vcxproj|M:\\CMP 302\\SUBMISSIONNNN\\GameMechanic\\GameMech 5.4 5.4 5.4 5.4 5.4\\Source\\GameMech\\WeaponCompCPP.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D49BB71C-70E9-3019-8043-0D8D3DC0B799}|Intermediate\\ProjectFiles\\GameMech.vcxproj|solutionrelative:Source\\GameMech\\WeaponCompCPP.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D49BB71C-70E9-3019-8043-0D8D3DC0B799}|Intermediate\\ProjectFiles\\GameMech.vcxproj|M:\\CMP 302\\SUBMISSIONNNN\\GameMechanic\\GameMech 5.4 5.4 5.4 5.4 5.4\\Source\\GameMech\\WeaponCompCPP.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D49BB71C-70E9-3019-8043-0D8D3DC0B799}|Intermediate\\ProjectFiles\\GameMech.vcxproj|solutionrelative:Source\\GameMech\\WeaponCompCPP.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D49BB71C-70E9-3019-8043-0D8D3DC0B799}|Intermediate\\ProjectFiles\\GameMech.vcxproj|M:\\CMP 302\\SUBMISSIONNNN\\GameMechanic\\GameMech 5.4 5.4 5.4 5.4 5.4\\Source\\GameMech\\WeaponCompCPP.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D49BB71C-70E9-3019-8043-0D8D3DC0B799}|Intermediate\\ProjectFiles\\GameMech.vcxproj|solutionrelative:Source\\GameMech\\WeaponCompCPP.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{D49BB71C-70E9-3019-8043-0D8D3DC0B799}|Intermediate\\ProjectFiles\\GameMech.vcxproj|M:\\CMP 302\\SUBMISSIONNNN\\GameMechanic\\GameMech 5.4 5.4 5.4 5.4 5.4\\Source\\GameMech\\TestDummyActor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D49BB71C-70E9-3019-8043-0D8D3DC0B799}|Intermediate\\ProjectFiles\\GameMech.vcxproj|solutionrelative:Source\\GameMech\\TestDummyActor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D49BB71C-70E9-3019-8043-0D8D3DC0B799}|Intermediate\\ProjectFiles\\GameMech.vcxproj|M:\\CMP 302\\SUBMISSIONNNN\\GameMechanic\\GameMech 5.4 5.4 5.4 5.4 5.4\\Source\\GameMech\\TestDummyActor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D49BB71C-70E9-3019-8043-0D8D3DC0B799}|Intermediate\\ProjectFiles\\GameMech.vcxproj|solutionrelative:Source\\GameMech\\TestDummyActor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "TestDummyActor.cpp",
               "DocumentMoniker": "M:\\CMP 302\\SUBMISSIONNNN\\GameMechanic\\GameMech 5.4 5.4 5.4 5.4 5.4\\Source\\GameMech\\TestDummyActor.cpp",
               "RelativeDocumentMoniker": "Source\\GameMech\\TestDummyActor.cpp",
@@ -43,7 +43,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TestDummyActor.h",
               "DocumentMoniker": "M:\\CMP 302\\SUBMISSIONNNN\\GameMechanic\\GameMech 5.4 5.4 5.4 5.4 5.4\\Source\\GameMech\\TestDummyActor.h",
               "RelativeDocumentMoniker": "Source\\GameMech\\TestDummyActor.h",
@@ -56,28 +56,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "WeaponCompCPP.cpp",
               "DocumentMoniker": "M:\\CMP 302\\SUBMISSIONNNN\\GameMechanic\\GameMech 5.4 5.4 5.4 5.4 5.4\\Source\\GameMech\\WeaponCompCPP.cpp",
               "RelativeDocumentMoniker": "Source\\GameMech\\WeaponCompCPP.cpp",
               "ToolTip": "M:\\CMP 302\\SUBMISSIONNNN\\GameMechanic\\GameMech 5.4 5.4 5.4 5.4 5.4\\Source\\GameMech\\WeaponCompCPP.cpp",
               "RelativeToolTip": "Source\\GameMech\\WeaponCompCPP.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-14T15:29:00.665Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "WeaponCompCPP.h",
               "DocumentMoniker": "M:\\CMP 302\\SUBMISSIONNNN\\GameMechanic\\GameMech 5.4 5.4 5.4 5.4 5.4\\Source\\GameMech\\WeaponCompCPP.h",
               "RelativeDocumentMoniker": "Source\\GameMech\\WeaponCompCPP.h",
               "ToolTip": "M:\\CMP 302\\SUBMISSIONNNN\\GameMechanic\\GameMech 5.4 5.4 5.4 5.4 5.4\\Source\\GameMech\\WeaponCompCPP.h",
               "RelativeToolTip": "Source\\GameMech\\WeaponCompCPP.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-14T15:28:59.391Z"
+              "WhenOpened": "2024-12-14T15:28:59.391Z",
+              "EditorCaption": ""
             }
           ]
         }
