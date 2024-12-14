@@ -2857,3 +2857,6 @@ _MatTransl_3B7A55D3409170328211A060FC2E3BB1E263C720_BBD650804D314CE7A44ADF9BB4F3
 [2024.12.14-16.39.32:070][616]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
 [2024.12.14-16.39.32:070][616]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2024.12.14-16.39.32:346][616]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2024.12.14-16.52.17:674][ 56]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2024.12.14-16.53.44:423][316]LogDerivedDataCache: C:/Users/2102628/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.001 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.12.14-17.12.17:742][224]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
