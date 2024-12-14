@@ -28,7 +28,8 @@ protected:
 
 	UFUNCTION(BlueprintCallable) void AfterHit(AActor* otherActor, const UPrimitiveComponent* otherComp);
 
-	UPROPERTY(BlueprintReadWrite) FVector M_ImpulseForce = FVector(600, 600, 600);
+	UPROPERTY(BlueprintReadWrite) FVector M_UpImpulseForce = FVector(0, 0, 10000);
+
 
 
 public:	

@@ -95,12 +95,12 @@ struct Z_Construct_UClass_AThunderAmmoActor_Statics
 		{ "IsBlueprintBase", "true" },
 		{ "ModuleRelativePath", "ThunderAmmoActor.h" },
 	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_M_ImpulseForce_MetaData[] = {
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_M_UpImpulseForce_MetaData[] = {
 		{ "Category", "ThunderAmmoActor" },
 		{ "ModuleRelativePath", "ThunderAmmoActor.h" },
 	};
 #endif // WITH_METADATA
-	static const UECodeGen_Private::FStructPropertyParams NewProp_M_ImpulseForce;
+	static const UECodeGen_Private::FStructPropertyParams NewProp_M_UpImpulseForce;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
@@ -112,9 +112,9 @@ struct Z_Construct_UClass_AThunderAmmoActor_Statics
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
-const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_AThunderAmmoActor_Statics::NewProp_M_ImpulseForce = { "M_ImpulseForce", nullptr, (EPropertyFlags)0x0020080000000004, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AThunderAmmoActor, M_ImpulseForce), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_M_ImpulseForce_MetaData), NewProp_M_ImpulseForce_MetaData) };
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_AThunderAmmoActor_Statics::NewProp_M_UpImpulseForce = { "M_UpImpulseForce", nullptr, (EPropertyFlags)0x0020080000000004, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AThunderAmmoActor, M_UpImpulseForce), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_M_UpImpulseForce_MetaData), NewProp_M_UpImpulseForce_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AThunderAmmoActor_Statics::PropPointers[] = {
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AThunderAmmoActor_Statics::NewProp_M_ImpulseForce,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AThunderAmmoActor_Statics::NewProp_M_UpImpulseForce,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AThunderAmmoActor_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_AThunderAmmoActor_Statics::DependentSingletons[])() = {
@@ -157,10 +157,10 @@ AThunderAmmoActor::~AThunderAmmoActor() {}
 struct Z_CompiledInDeferFile_FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_ThunderAmmoActor_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AThunderAmmoActor, AThunderAmmoActor::StaticClass, TEXT("AThunderAmmoActor"), &Z_Registration_Info_UClass_AThunderAmmoActor, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AThunderAmmoActor), 1297863679U) },
+		{ Z_Construct_UClass_AThunderAmmoActor, AThunderAmmoActor::StaticClass, TEXT("AThunderAmmoActor"), &Z_Registration_Info_UClass_AThunderAmmoActor, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AThunderAmmoActor), 3743435846U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_ThunderAmmoActor_h_1366967705(TEXT("/Script/GameMech"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_ThunderAmmoActor_h_1451282120(TEXT("/Script/GameMech"),
 	Z_CompiledInDeferFile_FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_ThunderAmmoActor_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_ThunderAmmoActor_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

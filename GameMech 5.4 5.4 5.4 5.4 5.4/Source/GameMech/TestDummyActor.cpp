@@ -25,6 +25,16 @@ void ATestDummyActor::Tick(float DeltaTime)
 
 }
 
+void ATestDummyActor::AfterTick()
+{
+
+
+	if (GetActorLocation().Z > 3000)
+	{
+		Destroy();
+	}
+}
+
 // Called to bind functionality to input
 void ATestDummyActor::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
@@ -34,12 +44,5 @@ void ATestDummyActor::SetupPlayerInputComponent(UInputComponent* PlayerInputComp
 
 void ATestDummyActor::movements()
 {
-	if (AActor::ActorHasTag("Enemy"))
-	{
-		//ACharacter::AIControllerClass = 
-	}
-	else 
-	{
 
-	}
 }

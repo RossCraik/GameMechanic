@@ -17,8 +17,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_WeaponCompCPP_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execPreSpawn); \
 	DECLARE_FUNCTION(execAfterSpawn); \
-	DECLARE_FUNCTION(execAfterShoot); \
-	DECLARE_FUNCTION(execOnPickUp);
+	DECLARE_FUNCTION(execAfterShoot);
 
 
 #define FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_WeaponCompCPP_h_23_INCLASS_NO_PURE_DECLS \

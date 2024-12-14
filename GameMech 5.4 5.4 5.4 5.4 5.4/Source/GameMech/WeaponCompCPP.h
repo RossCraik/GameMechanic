@@ -37,12 +37,16 @@ protected:
 	UPROPERTY(BlueprintReadWrite) AFirstPersonCharacterCPP* M_FirstPersonCharacter;
 
 
-	UFUNCTION(BlueprintCallable) void OnPickUp();
 
 	UFUNCTION(BlueprintCallable) void AfterShoot(const FVector& Location, const FRotator& rotation, int& RandomInt);
 
 	UFUNCTION(BlueprintCallable)void AfterSpawn(const FVector& Location);
 
 	UFUNCTION(BlueprintCallable) void PreSpawn(FVector& Location, FRotator& rotation);
+
+private:
+
+	/** The Character holding this weapon*/
+	AFirstPersonCharacterCPP* Character;
 
 };

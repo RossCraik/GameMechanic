@@ -15,7 +15,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define GAMEMECH_TestDummyActor_generated_h
 
 #define FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_TestDummyActor_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	DECLARE_FUNCTION(execmovements);
+	DECLARE_FUNCTION(execmovements); \
+	DECLARE_FUNCTION(execAfterTick);
 
 
 #define FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_TestDummyActor_h_14_INCLASS_NO_PURE_DECLS \

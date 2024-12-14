@@ -4,18 +4,6 @@
 #include "WeaponCompCPP.h"
 
 
-void UWeaponCompCPP::OnPickUp()
-{
-	if (AFirstPersonCharacterCPP* castobj = Cast<AFirstPersonCharacterCPP>(GetOwner()))
-	{
-		M_FirstPersonCharacter = castobj;
-		
-		
-	}
-	
-
-}
-
 
 void UWeaponCompCPP::AfterShoot(const FVector& Location, const FRotator& rotation, int &RandomInt)
 {

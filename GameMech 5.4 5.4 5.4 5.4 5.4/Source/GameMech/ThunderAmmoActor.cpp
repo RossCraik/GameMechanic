@@ -27,8 +27,8 @@ void AThunderAmmoActor::AfterHit(AActor* otherActor, const UPrimitiveComponent* 
 
 		if (ATestDummyActor* dumby = Cast<ATestDummyActor>(otherActor)) {
 
-			dumby->GetCharacterMovement()->AddImpulse(M_ImpulseForce, true);
-		
+			dumby->GetCharacterMovement()->AddImpulse(M_UpImpulseForce, true);
+
 
 		}
 	}

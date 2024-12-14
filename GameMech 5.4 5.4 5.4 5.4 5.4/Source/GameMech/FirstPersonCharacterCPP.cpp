@@ -3,12 +3,16 @@
 
 #include "FirstPersonCharacterCPP.h"
 
+#include "Animation/AnimInstance.h"
+#include "Camera/CameraComponent.h"
+#include "Components/CapsuleComponent.h"
+#include "Components/SkeletalMeshComponent.h"
+#include "Engine/LocalPlayer.h"
+
 // Sets default values
 AFirstPersonCharacterCPP::AFirstPersonCharacterCPP()
 {
- 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
-
+ 	
 }
 
 // Called when the game starts or when spawned

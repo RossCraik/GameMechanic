@@ -11,6 +11,8 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacterCPP() {}
 
 // Begin Cross Module References
 ENGINE_API UClass* Z_Construct_UClass_ACharacter();
+ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
+ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
 GAMEMECH_API UClass* Z_Construct_UClass_AFirstPersonCharacterCPP();
 GAMEMECH_API UClass* Z_Construct_UClass_AFirstPersonCharacterCPP_NoRegister();
 UPackage* Z_Construct_UPackage__Script_GameMech();
@@ -209,7 +211,34 @@ struct Z_Construct_UClass_AFirstPersonCharacterCPP_Statics
 		{ "IsBlueprintBase", "true" },
 		{ "ModuleRelativePath", "FirstPersonCharacterCPP.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Mesh1P_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Mesh" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "/** Pawn mesh: 1st person view (arms; seen only by self) */" },
+#endif
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "FirstPersonCharacterCPP.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "Pawn mesh: 1st person view (arms; seen only by self)" },
+#endif
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FirstPersonCameraComponent_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Camera" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "/** First person camera */" },
+#endif
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "FirstPersonCharacterCPP.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "First person camera" },
+#endif
+	};
 #endif // WITH_METADATA
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_Mesh1P;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_FirstPersonCameraComponent;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
 		{ &Z_Construct_UFunction_AFirstPersonCharacterCPP_CameraInput, "CameraInput" }, // 3130387565
@@ -223,6 +252,13 @@ struct Z_Construct_UClass_AFirstPersonCharacterCPP_Statics
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFirstPersonCharacterCPP_Statics::NewProp_Mesh1P = { "Mesh1P", nullptr, (EPropertyFlags)0x00400000000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AFirstPersonCharacterCPP, Mesh1P), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Mesh1P_MetaData), NewProp_Mesh1P_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFirstPersonCharacterCPP_Statics::NewProp_FirstPersonCameraComponent = { "FirstPersonCameraComponent", nullptr, (EPropertyFlags)0x00400000000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AFirstPersonCharacterCPP, FirstPersonCameraComponent), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_FirstPersonCameraComponent_MetaData), NewProp_FirstPersonCameraComponent_MetaData) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AFirstPersonCharacterCPP_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonCharacterCPP_Statics::NewProp_Mesh1P,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonCharacterCPP_Statics::NewProp_FirstPersonCameraComponent,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AFirstPersonCharacterCPP_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_AFirstPersonCharacterCPP_Statics::DependentSingletons[])() = {
 	(UObject* (*)())Z_Construct_UClass_ACharacter,
 	(UObject* (*)())Z_Construct_UPackage__Script_GameMech,
@@ -234,11 +270,11 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_AFirstPersonCharacterCP
 	&StaticCppClassTypeInfo,
 	DependentSingletons,
 	FuncInfo,
-	nullptr,
+	Z_Construct_UClass_AFirstPersonCharacterCPP_Statics::PropPointers,
 	nullptr,
 	UE_ARRAY_COUNT(DependentSingletons),
 	UE_ARRAY_COUNT(FuncInfo),
-	0,
+	UE_ARRAY_COUNT(Z_Construct_UClass_AFirstPersonCharacterCPP_Statics::PropPointers),
 	0,
 	0x009000A4u,
 	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AFirstPersonCharacterCPP_Statics::Class_MetaDataParams), Z_Construct_UClass_AFirstPersonCharacterCPP_Statics::Class_MetaDataParams)
@@ -263,10 +299,10 @@ AFirstPersonCharacterCPP::~AFirstPersonCharacterCPP() {}
 struct Z_CompiledInDeferFile_FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_FirstPersonCharacterCPP_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AFirstPersonCharacterCPP, AFirstPersonCharacterCPP::StaticClass, TEXT("AFirstPersonCharacterCPP"), &Z_Registration_Info_UClass_AFirstPersonCharacterCPP, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AFirstPersonCharacterCPP), 2100948233U) },
+		{ Z_Construct_UClass_AFirstPersonCharacterCPP, AFirstPersonCharacterCPP::StaticClass, TEXT("AFirstPersonCharacterCPP"), &Z_Registration_Info_UClass_AFirstPersonCharacterCPP, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AFirstPersonCharacterCPP), 2121115025U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_FirstPersonCharacterCPP_h_1894975253(TEXT("/Script/GameMech"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_FirstPersonCharacterCPP_h_2854797141(TEXT("/Script/GameMech"),
 	Z_CompiledInDeferFile_FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_FirstPersonCharacterCPP_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_GameMech_5_4_5_4_5_4_5_4_5_4_Source_GameMech_FirstPersonCharacterCPP_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
